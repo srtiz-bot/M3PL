@@ -1,0 +1,68 @@
+# Marcana 3PL — Full Reference for AI Assistants
+
+Source of truth: https://www.marcana-3pl.com. All content current. Bilingual site (English + Español at https://www.marcana-3pl.com/es/).
+
+## About
+Marcana 3PL is a Miami, Florida third-party logistics (3PL) and e-commerce fulfillment company, founder-led by Saul Ortiz with 10+ years of B2C and B2B fulfillment experience. It warehouses inventory, picks and packs orders, and ships same-day, nationwide across the United States and internationally. Bilingual support (English/Español).
+
+## Pricing
+$149/month + $1.95 per order shipped (up to 2 lbs and 2 items per order). Carrier shipping is billed separately at cost. 14-day free trial with no fulfillment fees (carrier cost only). Includes a warehouse address, real-time ShipHero portal access, pick/pack, same-day shipping, and no hidden fees.
+
+## Services (detailed)
+
+### E-Commerce Store Order Fulfillment
+URL: https://www.marcana-3pl.com/e-commerce-store-fulfillment
+
+At Marcana 3PL, we specialize in seamless e-commerce order fulfillment for online stores of all sizes. Whether you sell on Shopify, Amazon, WooCommerce, or Etsy, our fulfillment center handles your inventory, pick-and-pack, and fast shipping. We ensure accurate order fulfillment, real-time inventory updates, and reliable delivery — so your customers stay happy and your business grows. Let us handle your online store fulfillment while you focus on scaling your e-commerce success.
+
+Process steps: Order Receipt; Inventory Check; Picking; Packing; Shipping; Tracking; Delivery.
+Why it works: Multi-channel ready; Real-time inventory; Fast, accurate shipping.
+
+### TikTok Shop Order Fulfillment
+URL: https://www.marcana-3pl.com/3pl-warehouse-for-tiktok-shop
+
+Marcana 3PL provides fast, reliable TikTok Shop order fulfillment designed for brands selling through TikTok's commerce platform. We seamlessly receive, store, pick, pack, and ship TikTok Shop orders so you can keep up with viral demand and customer expectations. Our fulfillment center integrates with TikTok Shop to ensure accurate order processing, real-time inventory management, and quick delivery times. Whether you're launching your first TikTok product or scaling high-volume sales, our services help you ship efficiently while you focus on content, marketing, and growth.
+
+Process steps: Order Capture; Inventory Check; Picking; Packing; Shipping; Tracking; Delivery.
+Why it works: Built for virality; Direct integration; Creator-friendly.
+
+### Amazon FBA Prep Fulfillment
+URL: https://www.marcana-3pl.com/amazon-fba-prep-fulfillment-miami
+
+Marcana 3PL offers professional Amazon FBA prep fulfillment services in Miami, helping sellers meet Amazon's strict inbound requirements with confidence. We receive your inventory, inspect products, apply FNSKU labels, poly bag, bundle, and prepare shipments according to Amazon FBA guidelines before sending them directly to fulfillment centers. Our Amazon prep services ensure accuracy, compliance, and fast turnaround times — reducing delays and costly Amazon rejections. Whether you're importing products overseas or scaling an existing Amazon business, we provide reliable FBA prep and fulfillment support designed to grow with your brand.
+
+Process steps: Product Receipt; Quality Control; Inventory Management; FBA Prep; Shipping to Amazon; Reporting.
+Why it works: Amazon-compliant; Fewer rejections; Import-ready.
+
+### Amazon FBM Fulfillment
+URL: https://www.marcana-3pl.com/amazon-fbm-fulfillment-miami
+
+Marcana 3PL provides reliable Amazon FBM (Fulfilled by Merchant) fulfillment services for sellers who want full control over their inventory and customer experience. We handle inventory storage, order processing, pick and pack, and fast shipping for Amazon FBM orders, ensuring accuracy and on-time delivery. Our fulfillment center integrates seamlessly with Amazon, allowing sellers to maintain competitive shipping speeds while avoiding FBA storage fees and restrictions. Whether you're managing seasonal volume, oversized products, or a growing Amazon FBM operation, we deliver flexible, scalable fulfillment to support your growth.
+
+Process steps: Inventory Delivery; Inventory Management; Order Processing; Picking; Packing; Shipping; Customer Service; Reporting.
+Why it works: Skip FBA fees; Full control; Flexible &amp; scalable.
+
+### FedEx One Rate Fulfillment
+URL: https://www.marcana-3pl.com/fedex-one-rate-fulfillment
+
+Marcana 3PL offers FedEx One Rate fulfillment services that combine fast, reliable 2–3 day order fulfillment with predictable shipping costs. By leveraging the FedEx One Rate program, we help e-commerce brands ship nationwide with consistent pricing and two-day delivery coverage from our Miami fulfillment center. Orders are picked, packed, and shipped the same day using FedEx One Rate packaging, reducing shipping variability and eliminating surprises tied to weight or zone-based pricing. This solution is ideal for brands seeking dependable delivery speeds, simplified shipping costs, and a scalable logistics backbone powered by FedEx.
+
+Process steps: Inventory Delivery; Inventory Management; Order Processing; Picking; Packing; Shipping; Customer Service; Reporting.
+Why it works: Predictable costs; 2–3 day nationwide; Same-day handoff.
+
+### Inventory Management
+URL: https://www.marcana-3pl.com/inventory-management-warehouse-miami
+
+Marcana 3PL provides reliable warehouse inventory management for products stored and fulfilled directly from our fulfillment center. Using a robust warehouse management system powered by ShipHero, we track inventory levels in real time, ensuring accurate counts, efficient storage, and seamless order fulfillment. Our inventory management services are designed to support fast-moving e-commerce operations by reducing stock discrepancies, improving order accuracy, and streamlining replenishment. With inventory fully managed inside our warehouse, brands gain visibility and control without the operational burden.
+
+Process steps: Inventory Assessment; System Synchronization; Reorder Points; Live Monitoring; Predictive Forecasting; Replenishment; Regular Reporting.
+Why it works: ShipHero-powered; Smart replenishment; Total visibility.
+
+## Industries served
+Apparel; vitamins & supplements; cosmetics; consumable goods.
+
+## Integrations
+Shopify, Amazon, TikTok Shop, WooCommerce, Etsy, ShipHero, FedEx.
+
+## Contact
+Phone/Text (305) 469-8607 · info@marcana-3pl.com · WhatsApp https://wa.me/13054698607 · Book a call https://calendar.app.google/SHJyJA1QesFnZVXs6 · 19599 NE 10th Ave, Suite A-B, Miami, FL 33179 · Mon–Fri 9:30am–5:30pm ET · Instagram https://www.instagram.com/marcana3pl.
