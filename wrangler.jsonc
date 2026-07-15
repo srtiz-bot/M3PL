@@ -1,0 +1,9 @@
+{
+  "name": "marcana-3pl",
+  "compatibility_date": "2026-06-22",
+  "assets": {
+    "directory": "./marcana-3pl-founder-update",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

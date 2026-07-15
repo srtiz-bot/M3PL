@@ -1,0 +1,7 @@
+{
+  "name": "m3pl-site",
+  "private": true,
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
