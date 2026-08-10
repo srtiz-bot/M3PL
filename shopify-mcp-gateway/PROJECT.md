@@ -105,6 +105,20 @@ caching; web admin UI. Rationale in `docs/ARCHITECTURE.md` §10.
 
 Newest first. Each entry: what was decided, why, and what it costs.
 
+### D-013 — Discount creation stays a normal scoped write
+**Decision:** `discount_create` remains gated on `discounts:write`, which the
+`operator` preset includes. No second-approval workflow.
+**Why:** the existing guards already catch the realistic failure — a percentage
+above 50% needs `allowDeepDiscount: true`, and a code with no end date needs
+`neverExpires: true`, so the two ways to accidentally give away margin both
+require an explicit second statement of intent. Every creation is audited with
+an actor. An approval queue would add a table, two tools and a notification
+path to protect against a risk the team does not actually have.
+**Cost:** any operator can mint a live discount code. Revisit if the team grows
+past the point where everyone with `operator` is trusted with pricing.
+**Revisit if:** a discount is ever created that nobody will admit to, or the
+operator group grows beyond the current team.
+
 ### D-012 — Repo lives in a subdirectory pending transplant
 **Decision:** built at `shopify-mcp-gateway/` on branch
 `claude/cloudflare-shopify-gateway-vcd4k7` of `srtiz-bot/M3PL`.
@@ -194,7 +208,7 @@ which could replay across colos.
 |---|---|---|---|
 | Q1 | Which Google Workspace domain(s) to allow? | Sergio | `starpilwax.com` assumed; confirm whether Wax Supply staff use a second domain |
 | Q2 | Shopify Plus on either store? | Sergio | Affects rate-limit bucket size (`SHOPIFY_PLUS_SHOPS`) |
-| Q3 | Should `discount_create` require a second approval? | Sergio | Currently a normal scoped write; discounts are money |
+| ~~Q3~~ | ~~Should `discount_create` require a second approval?~~ | Sergio | **Closed 2026-08-10** — see D-013 |
 | Q4 | Retention on `audit_log`? | Sergio | Unbounded today; suggest 400 days then archive to R2 |
 
 ---
