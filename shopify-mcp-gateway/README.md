@@ -264,18 +264,26 @@ operation.
 
 ## 11. Moving this into its own repository
 
-This tree was developed inside another repo because the GitHub App running the
-build could not create repositories (see decision D-012 in `PROJECT.md`). To
-give it its own home:
+This tree was developed inside `srtiz-bot/M3PL` because the GitHub App running
+the build could not create repositories (see decision D-012 in `PROJECT.md`).
+Nothing here refers to the parent repo, so it transplants unchanged:
 
 ```bash
-# Create an empty repo on GitHub first, then:
-cd shopify-mcp-gateway
-rm -rf node_modules .wrangler
-git init && git add . && git commit -m "Initial commit: Shopify multi-store MCP gateway"
-git branch -M main
-git remote add origin git@github.com:<owner>/<repo>.git
-git push -u origin main
+./scripts/transplant.sh https://github.com/srtiz-bot/ai.Goodproductivity.git
+# then, after reviewing:
+cd ~/shopify-mcp-gateway && git push -u origin main
 ```
 
-Nothing in this directory refers to its parent, so it transplants unchanged.
+The script copies the tree (minus `node_modules`, `.wrangler` and `.dev.vars`),
+initialises a fresh repo, makes the first commit and sets the remote. It stops
+short of pushing so you can look before anything leaves the machine.
+
+Doing it by hand is equally fine:
+
+```bash
+cd shopify-mcp-gateway && rm -rf node_modules .wrangler
+git init && git add . && git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/srtiz-bot/ai.Goodproductivity.git
+git push -u origin main
+```

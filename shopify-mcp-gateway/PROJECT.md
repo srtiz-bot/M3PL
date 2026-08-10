@@ -112,7 +112,10 @@ Newest first. Each entry: what was decided, why, and what it costs.
 (403 `Resource not accessible by integration`), so the new repo could not be
 created from here. The tree is fully self-contained — nothing references its
 parent — so it transplants with a copy and a fresh `git init`.
-**Cost:** one manual step. See README §11.
+**Target repo:** `srtiz-bot/ai.Goodproductivity` (created by Sergio mid-build).
+The session's git credentials cover only `srtiz-bot/M3PL`, so the push to the
+new repo has to happen from a machine that can authenticate to it.
+**Cost:** one manual step — `./scripts/transplant.sh <remote-url>`. See README §11.
 
 ### D-011 — `tools/list` is filtered per principal
 **Decision:** callers only see tools they hold a scope for on ≥1 store.
