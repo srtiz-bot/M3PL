@@ -18,7 +18,7 @@
     {
       "binding": "DB",
       "database_name": "shopify-mcp-gateway",
-      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID",
+      "database_id": "d5861cac-2eec-4933-b608-c759a03bd699",
       "migrations_dir": "migrations"
     }
   ],
@@ -49,7 +49,7 @@
   "vars": {
     // Public origin of this Worker. Must exactly match the redirect URLs
     // registered with Shopify and Google.
-    "GATEWAY_URL": "https://shopify-mcp-gateway.example.workers.dev",
+    "GATEWAY_URL": "https://shopify-mcp-gateway.sortiz-eec.workers.dev",
 
     // Comma-separated Google Workspace domains permitted to sign in.
     "ALLOWED_EMAIL_DOMAINS": "starpilwax.com",
