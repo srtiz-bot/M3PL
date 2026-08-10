@@ -1,0 +1,85 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "shopify-mcp-gateway",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-01-15",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "observability": {
+    "enabled": true
+  },
+
+  // ---------------------------------------------------------------------
+  // D1 — all persistent state. Create with:
+  //   wrangler d1 create shopify-mcp-gateway
+  // then paste the returned database_id below.
+  // ---------------------------------------------------------------------
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "shopify-mcp-gateway",
+      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID",
+      "migrations_dir": "migrations"
+    }
+  ],
+
+  // ---------------------------------------------------------------------
+  // Durable Objects — one instance per shop domain, holding the
+  // authoritative Shopify leaky-bucket state. See docs/ARCHITECTURE.md §5.
+  // ---------------------------------------------------------------------
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "SHOP_RATE_LIMITER",
+        "class_name": "ShopRateLimiter"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["ShopRateLimiter"]
+    }
+  ],
+
+  // ---------------------------------------------------------------------
+  // Non-secret configuration. Secrets go through `wrangler secret put`
+  // and are listed in README §3 — never put them here.
+  // ---------------------------------------------------------------------
+  "vars": {
+    // Public origin of this Worker. Must exactly match the redirect URLs
+    // registered with Shopify and Google.
+    "GATEWAY_URL": "https://shopify-mcp-gateway.example.workers.dev",
+
+    // Comma-separated Google Workspace domains permitted to sign in.
+    "ALLOWED_EMAIL_DOMAINS": "starpilwax.com",
+
+    // Optional comma-separated individual emails permitted in addition to
+    // the domains above. Leave empty to allow the domains only.
+    "ALLOWED_EMAILS": "",
+
+    // First sign-in matching this email is granted the `admin` role, so the
+    // system has an operator without a manual DB edit. Safe to leave set;
+    // it only ever promotes this one address.
+    "ADMIN_BOOTSTRAP_EMAIL": "sortiz@starpilwax.com",
+
+    // Shopify Admin API scopes requested at install time.
+    "SHOPIFY_SCOPES": "read_products,write_products,read_inventory,write_inventory,read_orders,read_locations,write_discounts,read_discounts",
+
+    // Shopify Admin API version used for all GraphQL calls.
+    "SHOPIFY_API_VERSION": "2025-01",
+
+    // Comma-separated shop domains on Shopify Plus. Plus stores get a
+    // larger rate-limit bucket; listing them here avoids under-using it.
+    "SHOPIFY_PLUS_SHOPS": "",
+
+    // Token lifetimes.
+    "ACCESS_TOKEN_TTL_SECONDS": "3600",
+    "REFRESH_TOKEN_TTL_SECONDS": "7776000"
+  },
+
+  // Nightly cleanup of expired OAuth codes, tokens and idempotency keys.
+  "triggers": {
+    "crons": ["0 4 * * *"]
+  }
+}
