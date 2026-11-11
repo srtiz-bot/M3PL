@@ -1,0 +1,895 @@
+{
+ "total": 59.71,
+ "segs": [
+  {
+   "id": "h1",
+   "text": "Tu crema facial sale de fábrica en Colombia a cinco dólares.",
+   "start": 0.4,
+   "end": 5.246,
+   "dur": 4.846,
+   "heard": "Tu crema facial sale de fábrica en Colombia a cinco dólares.",
+   "words": [
+    {
+     "w": "Tu",
+     "n": "tu",
+     "s": 0.4,
+     "e": 0.5
+    },
+    {
+     "w": "crema",
+     "n": "crema",
+     "s": 0.5,
+     "e": 0.86
+    },
+    {
+     "w": "facial",
+     "n": "facial",
+     "s": 0.86,
+     "e": 1.28
+    },
+    {
+     "w": "sale",
+     "n": "sale",
+     "s": 1.28,
+     "e": 1.94
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 1.94,
+     "e": 2.12
+    },
+    {
+     "w": "fábrica",
+     "n": "fabrica",
+     "s": 2.12,
+     "e": 2.62
+    },
+    {
+     "w": "en",
+     "n": "en",
+     "s": 2.62,
+     "e": 2.72
+    },
+    {
+     "w": "Colombia",
+     "n": "colombia",
+     "s": 2.72,
+     "e": 3.14
+    },
+    {
+     "w": "a",
+     "n": "a",
+     "s": 3.14,
+     "e": 3.34
+    },
+    {
+     "w": "cinco",
+     "n": "cinco",
+     "s": 3.34,
+     "e": 3.58
+    },
+    {
+     "w": "dólares.",
+     "n": "dolares",
+     "s": 3.58,
+     "e": 4.0
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "En Miami la vendes a veinticinco. ¿Ganas veinte dólares?",
+   "start": 5.546,
+   "end": 9.635,
+   "dur": 4.089,
+   "heard": "en Miami la vendes a 25 ganas 20 dólares.",
+   "words": [
+    {
+     "w": "en",
+     "n": "en",
+     "s": 5.546,
+     "e": 5.706
+    },
+    {
+     "w": "Miami",
+     "n": "miami",
+     "s": 5.706,
+     "e": 6.266
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 6.266,
+     "e": 6.846
+    },
+    {
+     "w": "vendes",
+     "n": "vendes",
+     "s": 6.846,
+     "e": 7.286
+    },
+    {
+     "w": "a",
+     "n": "a",
+     "s": 7.286,
+     "e": 7.366
+    },
+    {
+     "w": "25",
+     "n": "25",
+     "s": 7.366,
+     "e": 7.926
+    },
+    {
+     "w": "ganas",
+     "n": "ganas",
+     "s": 7.926,
+     "e": 8.606
+    },
+    {
+     "w": "20",
+     "n": "20",
+     "s": 8.606,
+     "e": 8.886
+    },
+    {
+     "w": "dólares.",
+     "n": "dolares",
+     "s": 8.886,
+     "e": 9.246
+    }
+   ]
+  },
+  {
+   "id": "g0",
+   "text": "Vamos a llenar el vaso con un ejemplo.",
+   "start": 10.435,
+   "end": 13.838,
+   "dur": 3.404,
+   "heard": "Vamos a llenar el vaso con un ejemplo.",
+   "words": [
+    {
+     "w": "Vamos",
+     "n": "vamos",
+     "s": 10.435,
+     "e": 10.695
+    },
+    {
+     "w": "a",
+     "n": "a",
+     "s": 10.695,
+     "e": 10.895
+    },
+    {
+     "w": "llenar",
+     "n": "llenar",
+     "s": 10.895,
+     "e": 11.195
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 11.195,
+     "e": 11.295
+    },
+    {
+     "w": "vaso",
+     "n": "vaso",
+     "s": 11.295,
+     "e": 11.655
+    },
+    {
+     "w": "con",
+     "n": "con",
+     "s": 11.655,
+     "e": 11.815
+    },
+    {
+     "w": "un",
+     "n": "un",
+     "s": 11.815,
+     "e": 11.935
+    },
+    {
+     "w": "ejemplo.",
+     "n": "ejemplo",
+     "s": 11.935,
+     "e": 12.275
+    }
+   ]
+  },
+  {
+   "id": "c1",
+   "text": "Primero, la fábrica. Cinco dólares.",
+   "start": 14.438,
+   "end": 17.14,
+   "dur": 2.702,
+   "heard": "primero la fábrica cinco dólares.",
+   "words": [
+    {
+     "w": "primero",
+     "n": "primero",
+     "s": 14.438,
+     "e": 14.958
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 14.958,
+     "e": 15.318
+    },
+    {
+     "w": "fábrica",
+     "n": "fabrica",
+     "s": 15.318,
+     "e": 15.878
+    },
+    {
+     "w": "cinco",
+     "n": "cinco",
+     "s": 15.878,
+     "e": 16.398
+    },
+    {
+     "w": "dólares.",
+     "n": "dolares",
+     "s": 16.398,
+     "e": 16.838
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "text": "Súmale el flete de Cartagena a Miami.",
+   "start": 17.84,
+   "end": 20.501,
+   "dur": 2.661,
+   "heard": "Sumale el flete de Cartagena a mi a mi.",
+   "words": [
+    {
+     "w": "Sumale",
+     "n": "sumale",
+     "s": 17.84,
+     "e": 18.32
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 18.32,
+     "e": 18.6
+    },
+    {
+     "w": "flete",
+     "n": "flete",
+     "s": 18.6,
+     "e": 18.98
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 18.98,
+     "e": 19.1
+    },
+    {
+     "w": "Cartagena",
+     "n": "cartagena",
+     "s": 19.1,
+     "e": 19.8
+    },
+    {
+     "w": "a",
+     "n": "a",
+     "s": 19.8,
+     "e": 20.0
+    },
+    {
+     "w": "mi",
+     "n": "mi",
+     "s": 20.0,
+     "e": 20.1
+    },
+    {
+     "w": "a",
+     "n": "a",
+     "s": 20.1,
+     "e": 20.26
+    },
+    {
+     "w": "mi.",
+     "n": "mi",
+     "s": 20.26,
+     "e": 20.36
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "text": "El arancel. Hoy, doce y medio por ciento.",
+   "start": 21.301,
+   "end": 24.41,
+   "dur": 3.109,
+   "heard": "el arancel hoy 12 y medio por ciento.",
+   "words": [
+    {
+     "w": "el",
+     "n": "el",
+     "s": 21.301,
+     "e": 21.461
+    },
+    {
+     "w": "arancel",
+     "n": "arancel",
+     "s": 21.461,
+     "e": 22.101
+    },
+    {
+     "w": "hoy",
+     "n": "hoy",
+     "s": 22.101,
+     "e": 22.721
+    },
+    {
+     "w": "12",
+     "n": "12",
+     "s": 22.721,
+     "e": 23.221
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 23.221,
+     "e": 23.441
+    },
+    {
+     "w": "medio",
+     "n": "medio",
+     "s": 23.441,
+     "e": 23.661
+    },
+    {
+     "w": "por",
+     "n": "por",
+     "s": 23.661,
+     "e": 24.001
+    },
+    {
+     "w": "ciento.",
+     "n": "ciento",
+     "s": 24.001,
+     "e": 24.161
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "text": "La aduana: agente y trámites de entrada.",
+   "start": 25.11,
+   "end": 27.892,
+   "dur": 2.782,
+   "heard": "la aduana, agente y trámites de entrada.",
+   "words": [
+    {
+     "w": "la",
+     "n": "la",
+     "s": 25.11,
+     "e": 25.33
+    },
+    {
+     "w": "aduana,",
+     "n": "aduana",
+     "s": 25.33,
+     "e": 25.79
+    },
+    {
+     "w": "agente",
+     "n": "agente",
+     "s": 26.09,
+     "e": 26.55
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 26.55,
+     "e": 26.69
+    },
+    {
+     "w": "trámites",
+     "n": "tramites",
+     "s": 26.69,
+     "e": 27.15
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 27.15,
+     "e": 27.33
+    },
+    {
+     "w": "entrada.",
+     "n": "entrada",
+     "s": 27.33,
+     "e": 27.59
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "text": "El almacén, el empaque y el envío hasta la puerta de tu cliente.",
+   "start": 28.592,
+   "end": 33.341,
+   "dur": 4.75,
+   "heard": "el almacén, el empaque y el envío hasta la puerta de tu cliente.",
+   "words": [
+    {
+     "w": "el",
+     "n": "el",
+     "s": 28.592,
+     "e": 28.752
+    },
+    {
+     "w": "almacén,",
+     "n": "almacen",
+     "s": 28.752,
+     "e": 29.672
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 29.872,
+     "e": 29.932
+    },
+    {
+     "w": "empaque",
+     "n": "empaque",
+     "s": 29.932,
+     "e": 30.512
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 30.512,
+     "e": 30.852
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 30.852,
+     "e": 30.992
+    },
+    {
+     "w": "envío",
+     "n": "envio",
+     "s": 30.992,
+     "e": 31.472
+    },
+    {
+     "w": "hasta",
+     "n": "hasta",
+     "s": 31.472,
+     "e": 31.872
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 31.872,
+     "e": 32.032
+    },
+    {
+     "w": "puerta",
+     "n": "puerta",
+     "s": 32.032,
+     "e": 32.372
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 32.372,
+     "e": 32.612
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 32.612,
+     "e": 32.732
+    },
+    {
+     "w": "cliente.",
+     "n": "cliente",
+     "s": 32.732,
+     "e": 33.272
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "text": "Catorce con cuarenta y tres. Te queda un poco más de diez dólares.",
+   "start": 34.241,
+   "end": 38.235,
+   "dur": 3.994,
+   "heard": "14 ,43 te queda un poco más de 10 dólares.",
+   "words": [
+    {
+     "w": "14",
+     "n": "14",
+     "s": 34.241,
+     "e": 34.681
+    },
+    {
+     "w": ",43",
+     "n": "43",
+     "s": 34.681,
+     "e": 35.521
+    },
+    {
+     "w": "te",
+     "n": "te",
+     "s": 35.521,
+     "e": 36.201
+    },
+    {
+     "w": "queda",
+     "n": "queda",
+     "s": 36.201,
+     "e": 36.441
+    },
+    {
+     "w": "un",
+     "n": "un",
+     "s": 36.441,
+     "e": 36.581
+    },
+    {
+     "w": "poco",
+     "n": "poco",
+     "s": 36.581,
+     "e": 36.781
+    },
+    {
+     "w": "más",
+     "n": "mas",
+     "s": 36.781,
+     "e": 37.081
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 37.081,
+     "e": 37.281
+    },
+    {
+     "w": "10",
+     "n": "10",
+     "s": 37.281,
+     "e": 37.481
+    },
+    {
+     "w": "dólares.",
+     "n": "dolares",
+     "s": 37.481,
+     "e": 37.801
+    }
+   ]
+  },
+  {
+   "id": "o1",
+   "text": "Pero todavía falta la comisión de la tienda en línea, la publicidad y las devoluciones.",
+   "start": 38.835,
+   "end": 44.33,
+   "dur": 5.494,
+   "heard": "pero todavía falta la comisión de la tienda en línea, la publicidad y las devoluciones.",
+   "words": [
+    {
+     "w": "pero",
+     "n": "pero",
+     "s": 38.835,
+     "e": 38.975
+    },
+    {
+     "w": "todavía",
+     "n": "todavia",
+     "s": 38.975,
+     "e": 39.455
+    },
+    {
+     "w": "falta",
+     "n": "falta",
+     "s": 39.455,
+     "e": 39.835
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 39.835,
+     "e": 40.035
+    },
+    {
+     "w": "comisión",
+     "n": "comision",
+     "s": 40.035,
+     "e": 40.575
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 40.575,
+     "e": 40.735
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 40.735,
+     "e": 40.855
+    },
+    {
+     "w": "tienda",
+     "n": "tienda",
+     "s": 40.855,
+     "e": 41.255
+    },
+    {
+     "w": "en",
+     "n": "en",
+     "s": 41.255,
+     "e": 41.355
+    },
+    {
+     "w": "línea,",
+     "n": "linea",
+     "s": 41.355,
+     "e": 41.675
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 41.995,
+     "e": 42.235
+    },
+    {
+     "w": "publicidad",
+     "n": "publicidad",
+     "s": 42.235,
+     "e": 42.935
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 42.935,
+     "e": 43.175
+    },
+    {
+     "w": "las",
+     "n": "las",
+     "s": 43.175,
+     "e": 43.335
+    },
+    {
+     "w": "devoluciones.",
+     "n": "devoluciones",
+     "s": 43.335,
+     "e": 43.995
+    }
+   ]
+  },
+  {
+   "id": "o2",
+   "text": "Pensabas ganar veinte. Te queda uno.",
+   "start": 45.13,
+   "end": 47.352,
+   "dur": 2.222,
+   "heard": "pensabas ganar 20 te queda uno.",
+   "words": [
+    {
+     "w": "pensabas",
+     "n": "pensabas",
+     "s": 45.13,
+     "e": 45.69
+    },
+    {
+     "w": "ganar",
+     "n": "ganar",
+     "s": 45.69,
+     "e": 46.03
+    },
+    {
+     "w": "20",
+     "n": "20",
+     "s": 46.03,
+     "e": 46.25
+    },
+    {
+     "w": "te",
+     "n": "te",
+     "s": 46.25,
+     "e": 46.73
+    },
+    {
+     "w": "queda",
+     "n": "queda",
+     "s": 46.73,
+     "e": 46.91
+    },
+    {
+     "w": "uno.",
+     "n": "uno",
+     "s": 46.91,
+     "e": 47.21
+    }
+   ]
+  },
+  {
+   "id": "e1",
+   "text": "El precio de fábrica nunca fue tu costo.",
+   "start": 48.352,
+   "end": 50.925,
+   "dur": 2.573,
+   "heard": "El precio de fábrica nunca fue tu costo.",
+   "words": [
+    {
+     "w": "El",
+     "n": "el",
+     "s": 48.352,
+     "e": 48.492
+    },
+    {
+     "w": "precio",
+     "n": "precio",
+     "s": 48.492,
+     "e": 48.872
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 48.872,
+     "e": 49.072
+    },
+    {
+     "w": "fábrica",
+     "n": "fabrica",
+     "s": 49.072,
+     "e": 49.632
+    },
+    {
+     "w": "nunca",
+     "n": "nunca",
+     "s": 49.632,
+     "e": 49.872
+    },
+    {
+     "w": "fue",
+     "n": "fue",
+     "s": 49.872,
+     "e": 50.232
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 50.232,
+     "e": 50.372
+    },
+    {
+     "w": "costo.",
+     "n": "costo",
+     "s": 50.372,
+     "e": 50.832
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "text": "Antes de mover producto, llena el vaso con tus números.",
+   "start": 51.425,
+   "end": 55.149,
+   "dur": 3.724,
+   "heard": "antes de mover producto, llena el vaso con tus números.",
+   "words": [
+    {
+     "w": "antes",
+     "n": "antes",
+     "s": 51.425,
+     "e": 51.705
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 51.705,
+     "e": 51.885
+    },
+    {
+     "w": "mover",
+     "n": "mover",
+     "s": 51.885,
+     "e": 52.145
+    },
+    {
+     "w": "producto,",
+     "n": "producto",
+     "s": 52.145,
+     "e": 52.785
+    },
+    {
+     "w": "llena",
+     "n": "llena",
+     "s": 53.185,
+     "e": 53.665
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 53.665,
+     "e": 53.785
+    },
+    {
+     "w": "vaso",
+     "n": "vaso",
+     "s": 53.785,
+     "e": 54.125
+    },
+    {
+     "w": "con",
+     "n": "con",
+     "s": 54.125,
+     "e": 54.325
+    },
+    {
+     "w": "tus",
+     "n": "tus",
+     "s": 54.325,
+     "e": 54.485
+    },
+    {
+     "w": "números.",
+     "n": "numeros",
+     "s": 54.485,
+     "e": 54.765
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "text": "Usa la calculadora en vender en usa punto com.",
+   "start": 55.549,
+   "end": 58.209,
+   "dur": 2.659,
+   "heard": "usa la calculadora en venderenusa .com.",
+   "words": [
+    {
+     "w": "usa",
+     "n": "usa",
+     "s": 55.549,
+     "e": 55.789
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 55.789,
+     "e": 55.929
+    },
+    {
+     "w": "calculadora",
+     "n": "calculadora",
+     "s": 55.929,
+     "e": 56.509
+    },
+    {
+     "w": "en",
+     "n": "en",
+     "s": 56.509,
+     "e": 56.649
+    },
+    {
+     "w": "venderenusa",
+     "n": "venderenusa",
+     "s": 56.649,
+     "e": 57.269
+    },
+    {
+     "w": ".com.",
+     "n": "com",
+     "s": 57.269,
+     "e": 57.969
+    }
+   ]
+  }
+ ]
+}

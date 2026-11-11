@@ -1,0 +1,9 @@
+# generated or private: rebuild locally
+project/
+audio/
+*.wav
+*.mp3
+*.mp4
+node_modules/
+venv/
+.hyperframes/

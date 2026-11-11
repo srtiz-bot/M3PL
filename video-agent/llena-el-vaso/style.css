@@ -1,0 +1,44 @@
+:root{--desk:#f1f2ee;--binder:#2a2c2e;--paper:#fcfcfa;--ink:#101c29;--mute:#4d5964;--accent:#ce4206;--line:#d9d5c6}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--desk);font-family:"Inter",sans-serif}
+#root{position:relative;width:1080px;height:1920px}
+.clip{position:absolute;inset:0}
+#binder{position:absolute;left:24px;top:112px;width:1032px;height:1700px;background:var(--binder);border-radius:30px;box-shadow:0 30px 60px rgba(0,0,0,.28)}
+#paper{position:absolute;left:46px;top:138px;width:988px;height:1652px;background:var(--paper);border-radius:12px;box-shadow:inset -10px -10px 0 rgba(120,100,70,.16);
+ background-image:repeating-linear-gradient(to bottom,transparent 0 63px,rgba(19,32,46,.055) 63px 65px);background-position:0 20px}
+.ring{position:absolute;top:70px;width:36px;height:100px;border:6px solid #9aa0a6;border-radius:20px;z-index:5}
+#label{position:absolute;left:110px;top:266px;font-size:28px;font-weight:700;letter-spacing:.08em;color:var(--ink)}
+#rule{position:absolute;left:110px;top:318px;width:860px;height:3px;background:var(--ink)}
+.sc{position:absolute;left:0;top:0;width:1080px;height:1920px}
+.hid{opacity:0;visibility:hidden}
+.tag{position:absolute;top:392px;width:410px;height:250px;border:7px solid var(--ink);border-radius:16px;background:#fffdf6;padding:30px 34px}
+.tag .k{font-size:27px;font-weight:700;letter-spacing:.07em;color:var(--mute)} .tag .v{font-size:104px;font-weight:900;letter-spacing:-.05em;color:var(--ink);line-height:1.15}
+#q{position:absolute;left:60px;width:960px;top:940px;white-space:nowrap;text-align:center;font-size:112px;font-weight:900;letter-spacing:-.045em;color:var(--ink);line-height:1.05}
+#q .circ{position:relative;display:inline-block;color:var(--accent)} #q .circ svg{position:absolute;left:-34px;top:-14px;width:calc(100% + 68px);height:calc(100% + 28px);overflow:visible}
+#q .circ path{fill:none;stroke:var(--accent);stroke-width:9;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1}
+svg.full{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:visible}
+svg .d{fill:none;stroke:var(--ink);stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1}
+svg .ic{stroke-width:5}
+svg .acc{stroke:var(--accent)}
+svg .sep{fill:none;stroke:var(--line);stroke-width:3;stroke-dasharray:8 8}
+svg .stream{fill:none;stroke:var(--accent);stroke-width:13;stroke-linecap:round;stroke-dasharray:1 1;stroke-dashoffset:1;opacity:.92}
+svg .hand{font-family:"Caveat","Inter",sans-serif;font-size:58px;font-weight:700;fill:var(--ink)}
+svg .hot{fill:var(--accent)}
+svg .amt{font-size:42px;font-weight:800;fill:var(--accent);letter-spacing:-.02em}
+svg .tot{font-size:92px;font-weight:900;fill:var(--ink);letter-spacing:-.045em}
+svg .k{font-size:26px;font-weight:700;letter-spacing:.08em;fill:var(--mute)}
+.stamp{position:absolute;padding:12px 32px;border:12px solid var(--accent);border-radius:18px;color:var(--accent);font-size:84px;font-weight:900;letter-spacing:.03em;background:rgba(248,246,238,.93);white-space:nowrap}
+.h{font-size:92px;line-height:1.04;font-weight:800;letter-spacing:-.035em;color:var(--ink)} .h b{color:var(--accent);font-weight:800}
+.abs{position:absolute;left:110px;width:860px}
+#cta{display:inline-block;background:var(--accent);color:#fff;font-size:58px;font-weight:800;padding:26px 44px}
+.u{height:7px;background:var(--accent);transform-origin:left center}
+#capband{position:absolute;left:90px;width:900px;top:1176px;height:250px}
+.cap{position:absolute;inset:0;display:flex;flex-wrap:wrap;align-content:center;justify-content:center;gap:0 18px;text-align:center;font-size:68px;line-height:1.12;font-weight:800;letter-spacing:-.02em;color:#7f7a6a;opacity:0;visibility:hidden}
+.cap span{color:#7f7a6a}
+
+.h,#q,.tag .v,#cta,.stamp,#label,.cap{font-family:"Space Grotesk","Inter",sans-serif}
+svg .tot{font-family:"Space Grotesk","Inter",sans-serif}
+svg .sfill{opacity:0}
+#ej{position:absolute;right:110px;top:266px;font-size:24px;font-weight:700;letter-spacing:.08em;color:var(--accent);border:3px solid var(--accent);border-radius:8px;padding:4px 12px}
+svg .was{font-family:"Caveat","Inter",sans-serif;font-size:64px;font-weight:700;fill:var(--mute)}
+#url{font-family:"Space Grotesk","Inter",sans-serif}

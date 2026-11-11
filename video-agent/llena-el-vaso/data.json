@@ -1,0 +1,7 @@
+{"price":25.0,"costs":[
+ {"key":"c1","label":"Fábrica","amount":5.00},
+ {"key":"c2","label":"Flete","amount":0.35},
+ {"key":"c3","label":"Arancel 12.5%","amount":0.63},
+ {"key":"c4","label":"Aduana","amount":0.25},
+ {"key":"c5","label":"Almacén y envío","amount":8.20}],
+ "extras":[{"label":"comisión","kw":"comision","amount":3.75},{"label":"publicidad","kw":"publicidad","amount":5.00},{"label":"devoluciones","kw":"devoluciones","amount":0.75}]}

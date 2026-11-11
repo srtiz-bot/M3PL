@@ -1,0 +1,519 @@
+{
+ "total": 32.54,
+ "segs": [
+  {
+   "id": "c1",
+   "text": "Tu carga llegó a Miami hace cinco días. Y todavía no la puedes tocar. Porque llegar no es lo mismo que estar liberada.",
+   "start": 0.4,
+   "end": 8.682,
+   "dur": 8.282,
+   "heard": "Tu carga llegó a Miami hace cinco días y todavía no la puedes tocar porque llegar no es lo mismo que estar liberada.",
+   "words": [
+    {
+     "w": "Tu",
+     "n": "tu",
+     "s": 0.4,
+     "e": 0.5
+    },
+    {
+     "w": "carga",
+     "n": "carga",
+     "s": 0.5,
+     "e": 0.8
+    },
+    {
+     "w": "llegó",
+     "n": "llego",
+     "s": 0.8,
+     "e": 1.2
+    },
+    {
+     "w": "a",
+     "n": "a",
+     "s": 1.2,
+     "e": 1.48
+    },
+    {
+     "w": "Miami",
+     "n": "miami",
+     "s": 1.48,
+     "e": 1.78
+    },
+    {
+     "w": "hace",
+     "n": "hace",
+     "s": 1.78,
+     "e": 2.16
+    },
+    {
+     "w": "cinco",
+     "n": "cinco",
+     "s": 2.16,
+     "e": 2.52
+    },
+    {
+     "w": "días",
+     "n": "dias",
+     "s": 2.52,
+     "e": 2.9
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 2.9,
+     "e": 3.58
+    },
+    {
+     "w": "todavía",
+     "n": "todavia",
+     "s": 3.58,
+     "e": 3.96
+    },
+    {
+     "w": "no",
+     "n": "no",
+     "s": 3.96,
+     "e": 4.22
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 4.22,
+     "e": 4.34
+    },
+    {
+     "w": "puedes",
+     "n": "puedes",
+     "s": 4.34,
+     "e": 4.6
+    },
+    {
+     "w": "tocar",
+     "n": "tocar",
+     "s": 4.6,
+     "e": 5.02
+    },
+    {
+     "w": "porque",
+     "n": "porque",
+     "s": 5.02,
+     "e": 5.5
+    },
+    {
+     "w": "llegar",
+     "n": "llegar",
+     "s": 5.5,
+     "e": 5.84
+    },
+    {
+     "w": "no",
+     "n": "no",
+     "s": 5.84,
+     "e": 6.18
+    },
+    {
+     "w": "es",
+     "n": "es",
+     "s": 6.18,
+     "e": 6.32
+    },
+    {
+     "w": "lo",
+     "n": "lo",
+     "s": 6.32,
+     "e": 6.44
+    },
+    {
+     "w": "mismo",
+     "n": "mismo",
+     "s": 6.44,
+     "e": 6.68
+    },
+    {
+     "w": "que",
+     "n": "que",
+     "s": 6.68,
+     "e": 6.88
+    },
+    {
+     "w": "estar",
+     "n": "estar",
+     "s": 6.88,
+     "e": 7.1
+    },
+    {
+     "w": "liberada.",
+     "n": "liberada",
+     "s": 7.1,
+     "e": 7.64
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "text": "Falta que la aduana la despache, que el transportista la suelte, y que alguien coordine el retiro. Y mientras tanto, el puerto empieza a cobrar por cada día.",
+   "start": 9.232,
+   "end": 17.924,
+   "dur": 8.692,
+   "heard": "falta que la aduana la despache, que el transportista la suelte y que alguien coordina el retiro, y mientras tanto el puerto empieza a cobrar por cada día.",
+   "words": [
+    {
+     "w": "falta",
+     "n": "falta",
+     "s": 9.232,
+     "e": 9.532
+    },
+    {
+     "w": "que",
+     "n": "que",
+     "s": 9.532,
+     "e": 9.712
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 9.712,
+     "e": 9.872
+    },
+    {
+     "w": "aduana",
+     "n": "aduana",
+     "s": 9.872,
+     "e": 10.252
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 10.252,
+     "e": 10.372
+    },
+    {
+     "w": "despache,",
+     "n": "despache",
+     "s": 10.372,
+     "e": 10.972
+    },
+    {
+     "w": "que",
+     "n": "que",
+     "s": 11.232,
+     "e": 11.332
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 11.332,
+     "e": 11.472
+    },
+    {
+     "w": "transportista",
+     "n": "transportista",
+     "s": 11.472,
+     "e": 12.232
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 12.232,
+     "e": 12.392
+    },
+    {
+     "w": "suelte",
+     "n": "suelte",
+     "s": 12.392,
+     "e": 12.892
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 12.892,
+     "e": 13.172
+    },
+    {
+     "w": "que",
+     "n": "que",
+     "s": 13.172,
+     "e": 13.312
+    },
+    {
+     "w": "alguien",
+     "n": "alguien",
+     "s": 13.312,
+     "e": 13.592
+    },
+    {
+     "w": "coordina",
+     "n": "coordina",
+     "s": 13.592,
+     "e": 14.072
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 14.072,
+     "e": 14.192
+    },
+    {
+     "w": "retiro,",
+     "n": "retiro",
+     "s": 14.192,
+     "e": 14.632
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 14.872,
+     "e": 14.932
+    },
+    {
+     "w": "mientras",
+     "n": "mientras",
+     "s": 14.932,
+     "e": 15.212
+    },
+    {
+     "w": "tanto",
+     "n": "tanto",
+     "s": 15.212,
+     "e": 15.692
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 15.692,
+     "e": 15.872
+    },
+    {
+     "w": "puerto",
+     "n": "puerto",
+     "s": 15.872,
+     "e": 16.232
+    },
+    {
+     "w": "empieza",
+     "n": "empieza",
+     "s": 16.232,
+     "e": 16.512
+    },
+    {
+     "w": "a",
+     "n": "a",
+     "s": 16.512,
+     "e": 16.812
+    },
+    {
+     "w": "cobrar",
+     "n": "cobrar",
+     "s": 16.812,
+     "e": 17.132
+    },
+    {
+     "w": "por",
+     "n": "por",
+     "s": 17.132,
+     "e": 17.332
+    },
+    {
+     "w": "cada",
+     "n": "cada",
+     "s": 17.332,
+     "e": 17.552
+    },
+    {
+     "w": "día.",
+     "n": "dia",
+     "s": 17.552,
+     "e": 17.812
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "text": "Llegada, liberación y entrega: son tres momentos distintos. ¿Quién está viendo los tres en tu primer envío?",
+   "start": 19.024,
+   "end": 25.589,
+   "dur": 6.565,
+   "heard": "llegada, liberación y entrega. Son tres momentos distintos. ¿Quién está viendo los tres en tu primer envío?",
+   "words": [
+    {
+     "w": "llegada,",
+     "n": "llegada",
+     "s": 19.024,
+     "e": 19.544
+    },
+    {
+     "w": "liberación",
+     "n": "liberacion",
+     "s": 19.764,
+     "e": 20.344
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 20.344,
+     "e": 20.464
+    },
+    {
+     "w": "entrega.",
+     "n": "entrega",
+     "s": 20.464,
+     "e": 21.344
+    },
+    {
+     "w": "Son",
+     "n": "son",
+     "s": 21.344,
+     "e": 21.564
+    },
+    {
+     "w": "tres",
+     "n": "tres",
+     "s": 21.564,
+     "e": 21.784
+    },
+    {
+     "w": "momentos",
+     "n": "momentos",
+     "s": 21.784,
+     "e": 22.144
+    },
+    {
+     "w": "distintos.",
+     "n": "distintos",
+     "s": 22.144,
+     "e": 22.604
+    },
+    {
+     "w": "¿Quién",
+     "n": "quien",
+     "s": 23.164,
+     "e": 23.424
+    },
+    {
+     "w": "está",
+     "n": "esta",
+     "s": 23.424,
+     "e": 23.664
+    },
+    {
+     "w": "viendo",
+     "n": "viendo",
+     "s": 23.664,
+     "e": 23.904
+    },
+    {
+     "w": "los",
+     "n": "los",
+     "s": 23.904,
+     "e": 24.164
+    },
+    {
+     "w": "tres",
+     "n": "tres",
+     "s": 24.164,
+     "e": 24.424
+    },
+    {
+     "w": "en",
+     "n": "en",
+     "s": 24.424,
+     "e": 24.664
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 24.664,
+     "e": 24.784
+    },
+    {
+     "w": "primer",
+     "n": "primer",
+     "s": 24.784,
+     "e": 25.044
+    },
+    {
+     "w": "envío?",
+     "n": "envio",
+     "s": 25.044,
+     "e": 25.464
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "text": "Antes de tu primer envío, revisa tu caso en vender en usa punto com.",
+   "start": 26.289,
+   "end": 31.037,
+   "dur": 4.748,
+   "heard": "antes de tu primer envío, revisa tu caso en venderenusa .com.",
+   "words": [
+    {
+     "w": "antes",
+     "n": "antes",
+     "s": 26.289,
+     "e": 26.589
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 26.589,
+     "e": 26.769
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 26.769,
+     "e": 26.929
+    },
+    {
+     "w": "primer",
+     "n": "primer",
+     "s": 26.929,
+     "e": 27.229
+    },
+    {
+     "w": "envío,",
+     "n": "envio",
+     "s": 27.229,
+     "e": 27.709
+    },
+    {
+     "w": "revisa",
+     "n": "revisa",
+     "s": 28.089,
+     "e": 28.529
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 28.529,
+     "e": 28.689
+    },
+    {
+     "w": "caso",
+     "n": "caso",
+     "s": 28.689,
+     "e": 29.009
+    },
+    {
+     "w": "en",
+     "n": "en",
+     "s": 29.009,
+     "e": 29.309
+    },
+    {
+     "w": "venderenusa",
+     "n": "venderenusa",
+     "s": 29.309,
+     "e": 30.169
+    },
+    {
+     "w": ".com.",
+     "n": "com",
+     "s": 30.169,
+     "e": 30.829
+    }
+   ]
+  }
+ ]
+}

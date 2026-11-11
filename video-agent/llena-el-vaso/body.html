@@ -1,0 +1,52 @@
+<div class="ring" style="left:330px"></div><div class="ring" style="left:522px"></div><div class="ring" style="left:714px"></div>
+<div id="binder"></div><div id="paper"></div>
+<div id="label">CUADERNO DE IMPORTACIÓN</div><div id="ej">EJEMPLO ILUSTRATIVO</div><div id="rule"></div>
+
+<div class="sc" id="scH">
+  <div class="tag" id="tagA" style="left:110px"><div class="k">FÁBRICA EN COLOMBIA</div><div class="v" id="pA">US${{fab}}</div></div>
+  <div class="tag" id="tagB" style="left:560px"><div class="k">PRECIO EN MIAMI</div><div class="v" id="pB">US${{price}}</div></div>
+  <svg class="full" viewBox="0 0 1080 1920"><g>{{hookIcon}}</g></svg>
+  <div id="q">¿Ganas <span class="circ">US${{naive}}<svg viewBox="0 0 100 100" preserveAspectRatio="none"><path pathLength="1" vector-effect="non-scaling-stroke" d="M12 52 C10 12 92 4 94 48 C96 96 12 100 8 56 C6 28 40 10 70 10"/></svg></span>?</div>
+</div>
+
+<div class="sc hid" id="scG">
+<svg class="full" viewBox="0 0 1080 1920">
+  <defs>
+    <clipPath id="gclip"><path d="M128 430 L175 946 Q176 952 184 952 L416 952 Q424 952 425 946 L472 430 Z"/></clipPath>
+    <filter id="rough" filterUnits="userSpaceOnUse" x="0" y="0" width="1080" height="1920"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="5"/></filter>
+  </defs>
+  <g clip-path="url(#gclip)"><g id="liq"><path id="wave" fill="#c9421a" opacity=".86" d="M-200 0 q25 -13 50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 V700 H-200 Z"/></g></g>
+  <g filter="url(#rough)">
+    <path id="spillL" class="stream" style="stroke-width:16" pathLength="1" d="M132 428 C104 432 98 520 104 700 C108 820 96 900 86 968"/>
+    <path id="spillR" class="stream" style="stroke-width:16" pathLength="1" d="M468 428 C496 432 502 520 496 700 C492 820 504 900 514 968"/>
+    <ellipse id="puddle" cx="300" cy="972" rx="250" ry="22" fill="#c9421a" opacity=".86"/>
+    <path id="glass" class="d" style="stroke-width:9" pathLength="1" d="M120 430 L168 940 Q170 960 190 960 L410 960 Q430 960 432 940 L480 430"/>
+    <path id="shine" class="d" style="stroke-width:5;stroke:#fffdf6" pathLength="1" d="M168 500 L196 860"/>
+    <path id="rim" class="d acc" style="stroke-width:5" pathLength="1" stroke-dasharray="0.04 0.03" d="M96 {{RIM}} H506"/>
+    <!--ROWS-->
+    <!--EXTRAS-->
+    <path id="brace" class="d acc" style="stroke-width:6" pathLength="1" d="{{bracePath}}"/>
+    <path id="leftU" class="d acc" style="stroke-width:6" pathLength="1" d="M556 1128 C 640 1140 760 1118 900 1132"/>
+    <path id="wasX" class="d acc" style="stroke-width:8" pathLength="1" d="M590 392 C 700 380 820 398 960 384"/>
+  </g>
+  <text id="rimT" class="hand hot" x="112" y="398">US${{price}} · tu precio</text>
+  <text id="totK" class="k" x="112" y="1028">COSTO POR UNIDAD</text>
+  <text id="tot" class="tot" x="106" y="1126">US$0.00</text>
+  <text id="leftT" class="hand hot" x="556" y="1104" style="font-size:66px">te quedan US${{left}}</text>
+  <text id="was" class="was" x="600" y="410">¿ganar US${{naiveInt}}?</text>
+</svg>
+<div id="stampO" class="stamp" style="left:66px;top:650px;font-size:58px;border-width:10px;padding:10px 24px">SE DESBORDÓ</div>
+<div id="stampQ" class="stamp" style="left:60px;top:640px;font-size:54px;border-width:10px;padding:10px 22px">TE QUEDA US${{rest}}</div>
+</div>
+
+<div class="sc hid" id="scE">
+  <div id="e1" class="abs h" style="top:400px">El precio de fábrica <b>nunca</b> fue tu costo.</div>
+  <svg class="full" viewBox="0 0 1080 1920"><g filter="url(#rough)">
+    <path id="g2" class="d" style="stroke-width:8" pathLength="1" d="M740 760 L768 1010 Q770 1024 784 1024 L916 1024 Q930 1024 932 1010 L960 760"/>
+    <path id="g2r" class="d acc" style="stroke-width:5" pathLength="1" stroke-dasharray="0.05 0.04" d="M724 782 H976"/>
+    <path id="g2q" class="d acc" style="stroke-width:9" pathLength="1" d="M820 868 C820 836 880 836 880 872 C880 900 850 900 850 930 M850 962 l.1 .1"/>
+  </g></svg>
+  <div id="e2" class="abs h" style="top:770px;font-size:70px;width:600px">Llena el vaso con <b>tus</b> números.</div>
+  <div id="e3c" class="abs" style="top:960px"><span id="cta">Calcula tu costo ↗</span></div>
+  <div id="url" class="abs" style="top:1096px;font-size:44px;font-weight:700;color:var(--ink)">venderenusa.com/calculadora</div>
+</div>

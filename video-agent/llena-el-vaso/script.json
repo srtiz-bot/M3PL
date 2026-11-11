@@ -1,0 +1,70 @@
+[
+ {
+  "id": "h1",
+  "text": "Tu crema facial sale de fábrica en Colombia a cinco dólares."
+ },
+ {
+  "id": "h2",
+  "text": "En Miami la vendes a veinticinco. ¿Ganas veinte dólares?",
+  "pause": 0.8
+ },
+ {
+  "id": "g0",
+  "text": "Vamos a llenar el vaso con un ejemplo.",
+  "pause": 0.6
+ },
+ {
+  "id": "c1",
+  "text": "Primero, la fábrica. Cinco dólares.",
+  "pause": 0.7
+ },
+ {
+  "id": "c2",
+  "text": "Súmale el flete de Cartagena a Miami.",
+  "pause": 0.8
+ },
+ {
+  "id": "c3",
+  "text": "El arancel. Hoy, doce y medio por ciento.",
+  "pause": 0.7
+ },
+ {
+  "id": "c4",
+  "text": "La aduana: agente y trámites de entrada.",
+  "pause": 0.7
+ },
+ {
+  "id": "c5",
+  "text": "El almacén, el empaque y el envío hasta la puerta de tu cliente.",
+  "pause": 0.9
+ },
+ {
+  "id": "t1",
+  "text": "Catorce con cuarenta y tres. Te queda un poco más de diez dólares.",
+  "pause": 0.6
+ },
+ {
+  "id": "o1",
+  "text": "Pero todavía falta la comisión de la tienda en línea, la publicidad y las devoluciones.",
+  "pause": 0.8
+ },
+ {
+  "id": "o2",
+  "text": "Pensabas ganar veinte. Te queda uno.",
+  "pause": 1.0
+ },
+ {
+  "id": "e1",
+  "text": "El precio de fábrica nunca fue tu costo.",
+  "pause": 0.5
+ },
+ {
+  "id": "e2",
+  "text": "Antes de mover producto, llena el vaso con tus números.",
+  "pause": 0.4
+ },
+ {
+  "id": "e3",
+  "text": "Usa la calculadora en vender en usa punto com."
+ }
+]
