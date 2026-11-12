@@ -1,0 +1,37 @@
+[
+ {
+  "id": "s1",
+  "text": "¿Qué necesitas para importar tu producto a Estados Unidos? Cinco cosas. Vamos a contar cuántas tienes.",
+  "pause": 0.55
+ },
+ {
+  "id": "s2",
+  "text": "Uno: la clasificación de tu producto. Ese código define el arancel que pagas y quién lo regula.",
+  "pause": 0.5
+ },
+ {
+  "id": "s3",
+  "text": "Dos: un importador. Alguien que responda ante la aduana por tu carga.",
+  "pause": 0.5
+ },
+ {
+  "id": "s4",
+  "text": "Número tres: los documentos del envío. Factura comercial, lista de empaque y documento de transporte.",
+  "pause": 0.5
+ },
+ {
+  "id": "s5",
+  "text": "Cuatro: los requisitos de tu producto. Si es alimento o cosmético, la FDA tiene los suyos.",
+  "tts": "Cuatro: los requisitos de tu producto. Si es alimento o cosmético, la efe de a tiene los suyos.",
+  "pause": 0.5
+ },
+ {
+  "id": "s6",
+  "text": "Y cinco: un destino. Un almacén o un cliente que reciba la mercancía.",
+  "pause": 0.7
+ },
+ {
+  "id": "s7",
+  "text": "¿Tienes las cinco? Si te falta una, empieza por ahí. Cuéntanos tu caso en vender en usa punto com."
+ }
+]

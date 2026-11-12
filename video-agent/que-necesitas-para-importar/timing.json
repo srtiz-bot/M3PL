@@ -1,0 +1,614 @@
+{
+ "total": 45.14,
+ "segs": [
+  {
+   "id": "s1",
+   "text": "¿Qué necesitas para importar tu producto a Estados Unidos? Cinco cosas. Vamos a contar cuántas tienes.",
+   "start": 0.35,
+   "end": 6.536,
+   "dur": 6.186,
+   "cps_before": 17.5,
+   "tempo": 0.94,
+   "heard": "¿Qué necesitas para importar tu producto a Estados Unidos? 5 cosas, vamos a contar cuantas tienes.",
+   "words": [
+    {
+     "w": "¿Qué",
+     "s": 0.35,
+     "e": 0.45
+    },
+    {
+     "w": "necesitas",
+     "s": 0.45,
+     "e": 1.09
+    },
+    {
+     "w": "para",
+     "s": 1.09,
+     "e": 1.37
+    },
+    {
+     "w": "importar",
+     "s": 1.37,
+     "e": 1.91
+    },
+    {
+     "w": "tu",
+     "s": 1.91,
+     "e": 2.03
+    },
+    {
+     "w": "producto",
+     "s": 2.03,
+     "e": 2.43
+    },
+    {
+     "w": "a",
+     "s": 2.43,
+     "e": 2.61
+    },
+    {
+     "w": "Estados",
+     "s": 2.61,
+     "e": 2.91
+    },
+    {
+     "w": "Unidos?",
+     "s": 2.91,
+     "e": 3.37
+    },
+    {
+     "w": "5",
+     "s": 3.73,
+     "e": 4.01
+    },
+    {
+     "w": "cosas,",
+     "s": 4.01,
+     "e": 4.49
+    },
+    {
+     "w": "vamos",
+     "s": 4.89,
+     "e": 5.07
+    },
+    {
+     "w": "a",
+     "s": 5.07,
+     "e": 5.25
+    },
+    {
+     "w": "contar",
+     "s": 5.25,
+     "e": 5.49
+    },
+    {
+     "w": "cuantas",
+     "s": 5.49,
+     "e": 5.99
+    },
+    {
+     "w": "tienes.",
+     "s": 5.99,
+     "e": 6.23
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "text": "Uno: la clasificación de tu producto. Ese código define el arancel que pagas y quién lo regula.",
+   "start": 7.086,
+   "end": 13.177,
+   "dur": 6.091,
+   "cps_before": 15.5,
+   "tempo": 1.004,
+   "heard": "1. La clasificación de tu producto. Ese código define el arancel que pagas y quién lo regula.",
+   "words": [
+    {
+     "w": "1.",
+     "s": 7.086,
+     "e": 7.366
+    },
+    {
+     "w": "La",
+     "s": 7.646,
+     "e": 7.706
+    },
+    {
+     "w": "clasificación",
+     "s": 7.706,
+     "e": 8.486
+    },
+    {
+     "w": "de",
+     "s": 8.486,
+     "e": 8.706
+    },
+    {
+     "w": "tu",
+     "s": 8.706,
+     "e": 8.846
+    },
+    {
+     "w": "producto.",
+     "s": 8.846,
+     "e": 9.326
+    },
+    {
+     "w": "Ese",
+     "s": 9.746,
+     "e": 10.066
+    },
+    {
+     "w": "código",
+     "s": 10.066,
+     "e": 10.426
+    },
+    {
+     "w": "define",
+     "s": 10.426,
+     "e": 10.846
+    },
+    {
+     "w": "el",
+     "s": 10.846,
+     "e": 11.106
+    },
+    {
+     "w": "arancel",
+     "s": 11.106,
+     "e": 11.506
+    },
+    {
+     "w": "que",
+     "s": 11.506,
+     "e": 11.606
+    },
+    {
+     "w": "pagas",
+     "s": 11.606,
+     "e": 12.086
+    },
+    {
+     "w": "y",
+     "s": 12.086,
+     "e": 12.246
+    },
+    {
+     "w": "quién",
+     "s": 12.246,
+     "e": 12.446
+    },
+    {
+     "w": "lo",
+     "s": 12.446,
+     "e": 12.606
+    },
+    {
+     "w": "regula.",
+     "s": 12.606,
+     "e": 13.046
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "text": "Dos: un importador. Alguien que responda ante la aduana por tu carga.",
+   "start": 13.677,
+   "end": 18.076,
+   "dur": 4.399,
+   "cps_before": 16.6,
+   "tempo": 0.94,
+   "heard": "2. Un importador, alguien que responda ante la aduana por tu carga.",
+   "words": [
+    {
+     "w": "2.",
+     "s": 13.677,
+     "e": 13.937
+    },
+    {
+     "w": "Un",
+     "s": 14.317,
+     "e": 14.477
+    },
+    {
+     "w": "importador,",
+     "s": 14.477,
+     "e": 15.117
+    },
+    {
+     "w": "alguien",
+     "s": 15.337,
+     "e": 15.537
+    },
+    {
+     "w": "que",
+     "s": 15.537,
+     "e": 15.737
+    },
+    {
+     "w": "responda",
+     "s": 15.737,
+     "e": 16.337
+    },
+    {
+     "w": "ante",
+     "s": 16.337,
+     "e": 16.517
+    },
+    {
+     "w": "la",
+     "s": 16.517,
+     "e": 16.697
+    },
+    {
+     "w": "aduana",
+     "s": 16.697,
+     "e": 17.157
+    },
+    {
+     "w": "por",
+     "s": 17.157,
+     "e": 17.457
+    },
+    {
+     "w": "tu",
+     "s": 17.457,
+     "e": 17.617
+    },
+    {
+     "w": "carga.",
+     "s": 17.617,
+     "e": 17.837
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "text": "Número tres: los documentos del envío. Factura comercial, lista de empaque y documento de transporte.",
+   "start": 18.576,
+   "end": 25.054,
+   "dur": 6.478,
+   "cps_before": 14.2,
+   "tempo": 1.1,
+   "heard": "Número 3. Los documentos del envío, factura comercial, lista de empaque y documento de transporte.",
+   "words": [
+    {
+     "w": "Número",
+     "s": 18.576,
+     "e": 18.956
+    },
+    {
+     "w": "3.",
+     "s": 18.956,
+     "e": 19.236
+    },
+    {
+     "w": "Los",
+     "s": 19.676,
+     "e": 19.876
+    },
+    {
+     "w": "documentos",
+     "s": 19.876,
+     "e": 20.576
+    },
+    {
+     "w": "del",
+     "s": 20.576,
+     "e": 20.716
+    },
+    {
+     "w": "envío,",
+     "s": 20.716,
+     "e": 21.136
+    },
+    {
+     "w": "factura",
+     "s": 21.276,
+     "e": 21.636
+    },
+    {
+     "w": "comercial,",
+     "s": 21.636,
+     "e": 22.196
+    },
+    {
+     "w": "lista",
+     "s": 22.576,
+     "e": 22.856
+    },
+    {
+     "w": "de",
+     "s": 22.856,
+     "e": 23.076
+    },
+    {
+     "w": "empaque",
+     "s": 23.076,
+     "e": 23.456
+    },
+    {
+     "w": "y",
+     "s": 23.456,
+     "e": 23.716
+    },
+    {
+     "w": "documento",
+     "s": 23.716,
+     "e": 24.296
+    },
+    {
+     "w": "de",
+     "s": 24.296,
+     "e": 24.356
+    },
+    {
+     "w": "transporte.",
+     "s": 24.356,
+     "e": 24.976
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "text": "Cuatro: los requisitos de tu producto. Si es alimento o cosmético, la FDA tiene los suyos.",
+   "start": 25.554,
+   "end": 31.648,
+   "dur": 6.094,
+   "cps_before": 15.3,
+   "tempo": 1.02,
+   "heard": "4. Los requisitos de tu producto. Si es alimento cosmético, la FDA tiene los suyos.",
+   "words": [
+    {
+     "w": "4.",
+     "s": 25.554,
+     "e": 25.814
+    },
+    {
+     "w": "Los",
+     "s": 26.134,
+     "e": 26.354
+    },
+    {
+     "w": "requisitos",
+     "s": 26.354,
+     "e": 27.014
+    },
+    {
+     "w": "de",
+     "s": 27.014,
+     "e": 27.194
+    },
+    {
+     "w": "tu",
+     "s": 27.194,
+     "e": 27.334
+    },
+    {
+     "w": "producto.",
+     "s": 27.334,
+     "e": 27.834
+    },
+    {
+     "w": "Si",
+     "s": 28.234,
+     "e": 28.334
+    },
+    {
+     "w": "es",
+     "s": 28.334,
+     "e": 28.534
+    },
+    {
+     "w": "alimento",
+     "s": 28.534,
+     "e": 28.914
+    },
+    {
+     "w": "cosmético,",
+     "s": 28.914,
+     "e": 29.654
+    },
+    {
+     "w": "la",
+     "s": 30.034,
+     "e": 30.154
+    },
+    {
+     "w": "FDA",
+     "s": 30.154,
+     "e": 30.474
+    },
+    {
+     "w": "tiene",
+     "s": 30.474,
+     "e": 30.814
+    },
+    {
+     "w": "los",
+     "s": 30.814,
+     "e": 31.014
+    },
+    {
+     "w": "suyos.",
+     "s": 31.014,
+     "e": 31.514
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "text": "Y cinco: un destino. Un almacén o un cliente que reciba la mercancía.",
+   "start": 32.148,
+   "end": 36.565,
+   "dur": 4.417,
+   "cps_before": 15.6,
+   "tempo": 1.003,
+   "heard": "i5 un destino, un almacén o un cliente que reciba la mercancía.",
+   "words": [
+    {
+     "w": "i5",
+     "s": 32.148,
+     "e": 32.708
+    },
+    {
+     "w": "un",
+     "s": 32.708,
+     "e": 33.028
+    },
+    {
+     "w": "destino,",
+     "s": 33.028,
+     "e": 33.628
+    },
+    {
+     "w": "un",
+     "s": 33.828,
+     "e": 33.908
+    },
+    {
+     "w": "almacén",
+     "s": 33.908,
+     "e": 34.468
+    },
+    {
+     "w": "o",
+     "s": 34.468,
+     "e": 34.628
+    },
+    {
+     "w": "un",
+     "s": 34.628,
+     "e": 34.768
+    },
+    {
+     "w": "cliente",
+     "s": 34.768,
+     "e": 35.248
+    },
+    {
+     "w": "que",
+     "s": 35.248,
+     "e": 35.308
+    },
+    {
+     "w": "reciba",
+     "s": 35.308,
+     "e": 35.728
+    },
+    {
+     "w": "la",
+     "s": 35.728,
+     "e": 35.808
+    },
+    {
+     "w": "mercancía.",
+     "s": 35.808,
+     "e": 36.468
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "text": "¿Tienes las cinco? Si te falta una, empieza por ahí. Cuéntanos tu caso en vender en usa punto com.",
+   "start": 37.265,
+   "end": 43.543,
+   "dur": 6.278,
+   "cps_before": 14.7,
+   "tempo": 1.062,
+   "heard": "Tienes la cinco, si te falta una, empieza por ahí, cuéntanos tu caso en vender en usapunto .com.",
+   "words": [
+    {
+     "w": "Tienes",
+     "s": 37.265,
+     "e": 37.565
+    },
+    {
+     "w": "la",
+     "s": 37.565,
+     "e": 37.685
+    },
+    {
+     "w": "cinco,",
+     "s": 37.685,
+     "e": 38.005
+    },
+    {
+     "w": "si",
+     "s": 38.385,
+     "e": 38.505
+    },
+    {
+     "w": "te",
+     "s": 38.505,
+     "e": 38.645
+    },
+    {
+     "w": "falta",
+     "s": 38.645,
+     "e": 38.885
+    },
+    {
+     "w": "una,",
+     "s": 38.885,
+     "e": 39.245
+    },
+    {
+     "w": "empieza",
+     "s": 39.585,
+     "e": 39.865
+    },
+    {
+     "w": "por",
+     "s": 39.865,
+     "e": 40.205
+    },
+    {
+     "w": "ahí,",
+     "s": 40.205,
+     "e": 40.385
+    },
+    {
+     "w": "cuéntanos",
+     "s": 40.705,
+     "e": 41.125
+    },
+    {
+     "w": "tu",
+     "s": 41.125,
+     "e": 41.345
+    },
+    {
+     "w": "caso",
+     "s": 41.345,
+     "e": 41.645
+    },
+    {
+     "w": "en",
+     "s": 41.645,
+     "e": 41.845
+    },
+    {
+     "w": "vender",
+     "s": 41.845,
+     "e": 42.145
+    },
+    {
+     "w": "en",
+     "s": 42.145,
+     "e": 42.505
+    },
+    {
+     "w": "usapunto",
+     "s": 42.505,
+     "e": 43.085
+    },
+    {
+     "w": ".com.",
+     "s": 43.085,
+     "e": 43.385
+    }
+   ]
+  }
+ ]
+}

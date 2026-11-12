@@ -1,0 +1,683 @@
+{
+ "total": 48.76,
+ "segs": [
+  {
+   "id": "h1",
+   "text": "Tu café puede llegar a Miami y no entrar. No por el café: porque nadie figura como importador.",
+   "start": 0.4,
+   "end": 6.425,
+   "dur": 6.025,
+   "heard": "Tu café puede llegar a Miami y no entrar, no por el café, porque nadie figura como importador.",
+   "words": [
+    {
+     "w": "Tu",
+     "n": "tu",
+     "s": 0.4,
+     "e": 0.5
+    },
+    {
+     "w": "café",
+     "n": "cafe",
+     "s": 0.5,
+     "e": 0.8
+    },
+    {
+     "w": "puede",
+     "n": "puede",
+     "s": 0.8,
+     "e": 1.18
+    },
+    {
+     "w": "llegar",
+     "n": "llegar",
+     "s": 1.18,
+     "e": 1.58
+    },
+    {
+     "w": "a",
+     "n": "a",
+     "s": 1.58,
+     "e": 1.8
+    },
+    {
+     "w": "Miami",
+     "n": "miami",
+     "s": 1.8,
+     "e": 2.18
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 2.18,
+     "e": 2.52
+    },
+    {
+     "w": "no",
+     "n": "no",
+     "s": 2.52,
+     "e": 2.66
+    },
+    {
+     "w": "entrar,",
+     "n": "entrar",
+     "s": 2.66,
+     "e": 3.04
+    },
+    {
+     "w": "no",
+     "n": "no",
+     "s": 3.34,
+     "e": 3.46
+    },
+    {
+     "w": "por",
+     "n": "por",
+     "s": 3.46,
+     "e": 3.62
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 3.62,
+     "e": 3.74
+    },
+    {
+     "w": "café,",
+     "n": "cafe",
+     "s": 3.74,
+     "e": 4.1
+    },
+    {
+     "w": "porque",
+     "n": "porque",
+     "s": 4.36,
+     "e": 4.6
+    },
+    {
+     "w": "nadie",
+     "n": "nadie",
+     "s": 4.6,
+     "e": 4.94
+    },
+    {
+     "w": "figura",
+     "n": "figura",
+     "s": 4.94,
+     "e": 5.36
+    },
+    {
+     "w": "como",
+     "n": "como",
+     "s": 5.36,
+     "e": 5.68
+    },
+    {
+     "w": "importador.",
+     "n": "importador",
+     "s": 5.68,
+     "e": 6.34
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "En cada envío, alguien responde ante la aduana de Estados Unidos: declara la carga, paga los aranceles y responde si algo falla. Ese es el importador.",
+   "start": 7.125,
+   "end": 19.741,
+   "dur": 12.617,
+   "heard": "en cada envío, alguien responde ante la aduana de Estados Unidos, declara la carga, paga los aranceles y responde si algo falla, ese es el importador.",
+   "words": [
+    {
+     "w": "en",
+     "n": "en",
+     "s": 7.125,
+     "e": 7.325
+    },
+    {
+     "w": "cada",
+     "n": "cada",
+     "s": 7.325,
+     "e": 7.645
+    },
+    {
+     "w": "envío,",
+     "n": "envio",
+     "s": 7.645,
+     "e": 8.245
+    },
+    {
+     "w": "alguien",
+     "n": "alguien",
+     "s": 8.645,
+     "e": 8.925
+    },
+    {
+     "w": "responde",
+     "n": "responde",
+     "s": 8.925,
+     "e": 9.745
+    },
+    {
+     "w": "ante",
+     "n": "ante",
+     "s": 9.745,
+     "e": 10.105
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 10.105,
+     "e": 10.325
+    },
+    {
+     "w": "aduana",
+     "n": "aduana",
+     "s": 10.325,
+     "e": 10.745
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 10.745,
+     "e": 10.925
+    },
+    {
+     "w": "Estados",
+     "n": "estados",
+     "s": 10.925,
+     "e": 11.265
+    },
+    {
+     "w": "Unidos,",
+     "n": "unidos",
+     "s": 11.265,
+     "e": 11.825
+    },
+    {
+     "w": "declara",
+     "n": "declara",
+     "s": 12.285,
+     "e": 12.825
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 12.825,
+     "e": 12.945
+    },
+    {
+     "w": "carga,",
+     "n": "carga",
+     "s": 12.945,
+     "e": 13.285
+    },
+    {
+     "w": "paga",
+     "n": "paga",
+     "s": 13.765,
+     "e": 13.985
+    },
+    {
+     "w": "los",
+     "n": "los",
+     "s": 13.985,
+     "e": 14.145
+    },
+    {
+     "w": "aranceles",
+     "n": "aranceles",
+     "s": 14.145,
+     "e": 14.845
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 14.845,
+     "e": 15.105
+    },
+    {
+     "w": "responde",
+     "n": "responde",
+     "s": 15.105,
+     "e": 15.745
+    },
+    {
+     "w": "si",
+     "n": "si",
+     "s": 15.745,
+     "e": 15.885
+    },
+    {
+     "w": "algo",
+     "n": "algo",
+     "s": 15.885,
+     "e": 16.145
+    },
+    {
+     "w": "falla,",
+     "n": "falla",
+     "s": 16.145,
+     "e": 16.705
+    },
+    {
+     "w": "ese",
+     "n": "ese",
+     "s": 16.945,
+     "e": 17.245
+    },
+    {
+     "w": "es",
+     "n": "es",
+     "s": 17.245,
+     "e": 17.645
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 17.645,
+     "e": 17.805
+    },
+    {
+     "w": "importador.",
+     "n": "importador",
+     "s": 17.805,
+     "e": 18.425
+    }
+   ]
+  },
+  {
+   "id": "h3",
+   "text": "Tu almacén no lo es. Tu agente aduanal tramita la entrada, pero normalmente tampoco.",
+   "start": 20.641,
+   "end": 25.992,
+   "dur": 5.351,
+   "heard": "tu almacén no lo es. Tu agente aduanal tramita la entrada, pero normalmente tampoco.",
+   "words": [
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 20.641,
+     "e": 20.741
+    },
+    {
+     "w": "almacén",
+     "n": "almacen",
+     "s": 20.741,
+     "e": 21.261
+    },
+    {
+     "w": "no",
+     "n": "no",
+     "s": 21.261,
+     "e": 21.401
+    },
+    {
+     "w": "lo",
+     "n": "lo",
+     "s": 21.401,
+     "e": 21.521
+    },
+    {
+     "w": "es.",
+     "n": "es",
+     "s": 21.521,
+     "e": 21.821
+    },
+    {
+     "w": "Tu",
+     "n": "tu",
+     "s": 22.081,
+     "e": 22.121
+    },
+    {
+     "w": "agente",
+     "n": "agente",
+     "s": 22.121,
+     "e": 22.581
+    },
+    {
+     "w": "aduanal",
+     "n": "aduanal",
+     "s": 22.581,
+     "e": 23.121
+    },
+    {
+     "w": "tramita",
+     "n": "tramita",
+     "s": 23.121,
+     "e": 23.621
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 23.621,
+     "e": 23.781
+    },
+    {
+     "w": "entrada,",
+     "n": "entrada",
+     "s": 23.781,
+     "e": 24.221
+    },
+    {
+     "w": "pero",
+     "n": "pero",
+     "s": 24.501,
+     "e": 24.641
+    },
+    {
+     "w": "normalmente",
+     "n": "normalmente",
+     "s": 24.641,
+     "e": 25.101
+    },
+    {
+     "w": "tampoco.",
+     "n": "tampoco",
+     "s": 25.101,
+     "e": 25.641
+    }
+   ]
+  },
+  {
+   "id": "h4",
+   "text": "Entonces, ¿quién? Puede ser tu propia empresa en Estados Unidos, tu empresa extranjera registrada como importador no residente, o tu comprador allá.",
+   "start": 26.592,
+   "end": 36.773,
+   "dur": 10.181,
+   "heard": "entonces quién puede ser tu propia empresa en Estados Unidos, tu empresa extranjera registrada como importador no residente o tu comprador allá.",
+   "words": [
+    {
+     "w": "entonces",
+     "n": "entonces",
+     "s": 26.592,
+     "e": 27.212
+    },
+    {
+     "w": "quién",
+     "n": "quien",
+     "s": 27.212,
+     "e": 28.132
+    },
+    {
+     "w": "puede",
+     "n": "puede",
+     "s": 28.132,
+     "e": 28.772
+    },
+    {
+     "w": "ser",
+     "n": "ser",
+     "s": 28.772,
+     "e": 29.152
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 29.152,
+     "e": 29.412
+    },
+    {
+     "w": "propia",
+     "n": "propia",
+     "s": 29.412,
+     "e": 29.732
+    },
+    {
+     "w": "empresa",
+     "n": "empresa",
+     "s": 29.732,
+     "e": 30.192
+    },
+    {
+     "w": "en",
+     "n": "en",
+     "s": 30.192,
+     "e": 30.532
+    },
+    {
+     "w": "Estados",
+     "n": "estados",
+     "s": 30.532,
+     "e": 30.892
+    },
+    {
+     "w": "Unidos,",
+     "n": "unidos",
+     "s": 30.892,
+     "e": 31.372
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 31.892,
+     "e": 31.912
+    },
+    {
+     "w": "empresa",
+     "n": "empresa",
+     "s": 31.912,
+     "e": 32.232
+    },
+    {
+     "w": "extranjera",
+     "n": "extranjera",
+     "s": 32.232,
+     "e": 32.932
+    },
+    {
+     "w": "registrada",
+     "n": "registrada",
+     "s": 32.932,
+     "e": 33.552
+    },
+    {
+     "w": "como",
+     "n": "como",
+     "s": 33.552,
+     "e": 33.852
+    },
+    {
+     "w": "importador",
+     "n": "importador",
+     "s": 33.852,
+     "e": 34.552
+    },
+    {
+     "w": "no",
+     "n": "no",
+     "s": 34.552,
+     "e": 34.732
+    },
+    {
+     "w": "residente",
+     "n": "residente",
+     "s": 34.732,
+     "e": 35.612
+    },
+    {
+     "w": "o",
+     "n": "o",
+     "s": 35.612,
+     "e": 35.732
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 35.732,
+     "e": 35.852
+    },
+    {
+     "w": "comprador",
+     "n": "comprador",
+     "s": 35.852,
+     "e": 36.352
+    },
+    {
+     "w": "allá.",
+     "n": "alla",
+     "s": 36.352,
+     "e": 36.592
+    }
+   ]
+  },
+  {
+   "id": "h5",
+   "text": "Decídelo antes de embarcar, no cuando el café ya está en el puerto.",
+   "start": 37.373,
+   "end": 41.809,
+   "dur": 4.436,
+   "heard": "decídelo antes de embarcar, no cuando el café ya está en el puerto.",
+   "words": [
+    {
+     "w": "decídelo",
+     "n": "decidelo",
+     "s": 37.373,
+     "e": 38.053
+    },
+    {
+     "w": "antes",
+     "n": "antes",
+     "s": 38.053,
+     "e": 38.473
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 38.473,
+     "e": 38.673
+    },
+    {
+     "w": "embarcar,",
+     "n": "embarcar",
+     "s": 38.673,
+     "e": 39.253
+    },
+    {
+     "w": "no",
+     "n": "no",
+     "s": 39.593,
+     "e": 39.693
+    },
+    {
+     "w": "cuando",
+     "n": "cuando",
+     "s": 39.693,
+     "e": 39.953
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 39.953,
+     "e": 40.153
+    },
+    {
+     "w": "café",
+     "n": "cafe",
+     "s": 40.153,
+     "e": 40.493
+    },
+    {
+     "w": "ya",
+     "n": "ya",
+     "s": 40.493,
+     "e": 40.833
+    },
+    {
+     "w": "está",
+     "n": "esta",
+     "s": 40.833,
+     "e": 41.093
+    },
+    {
+     "w": "en",
+     "n": "en",
+     "s": 41.093,
+     "e": 41.233
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 41.233,
+     "e": 41.313
+    },
+    {
+     "w": "puerto.",
+     "n": "puerto",
+     "s": 41.313,
+     "e": 41.713
+    }
+   ]
+  },
+  {
+   "id": "h6",
+   "text": "Cuéntanos tu caso y lo revisamos contigo en vender en usa punto com.",
+   "start": 42.709,
+   "end": 47.265,
+   "dur": 4.556,
+   "heard": "Cuéntanos tu caso y lo revisamos contigo en venderenusa .com.",
+   "words": [
+    {
+     "w": "Cuéntanos",
+     "n": "cuentanos",
+     "s": 42.709,
+     "e": 43.089
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 43.089,
+     "e": 43.309
+    },
+    {
+     "w": "caso",
+     "n": "caso",
+     "s": 43.309,
+     "e": 43.669
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 43.669,
+     "e": 43.969
+    },
+    {
+     "w": "lo",
+     "n": "lo",
+     "s": 43.969,
+     "e": 44.089
+    },
+    {
+     "w": "revisamos",
+     "n": "revisamos",
+     "s": 44.089,
+     "e": 44.669
+    },
+    {
+     "w": "contigo",
+     "n": "contigo",
+     "s": 44.669,
+     "e": 45.249
+    },
+    {
+     "w": "en",
+     "n": "en",
+     "s": 45.249,
+     "e": 45.389
+    },
+    {
+     "w": "venderenusa",
+     "n": "venderenusa",
+     "s": 45.389,
+     "e": 46.389
+    },
+    {
+     "w": ".com.",
+     "n": "com",
+     "s": 46.389,
+     "e": 47.089
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,507 @@
+{
+ "total": 32.31,
+ "segs": [
+  {
+   "id": "b1",
+   "text": "Tu cotización de fábrica tiene tres letras que casi nadie lee: F, O, B. Significan que la fábrica entrega tu producto en un puerto de China, y ahí termina su trabajo.",
+   "start": 0.4,
+   "end": 10.706,
+   "dur": 10.306,
+   "heard": "Tu cotización de fábrica tiene tres letras que casi nadie lee F o B significan que la fábrica entrega tu producto en un puerto de China y ahí termina su trabajo.",
+   "words": [
+    {
+     "w": "Tu",
+     "n": "tu",
+     "s": 0.4,
+     "e": 0.5
+    },
+    {
+     "w": "cotización",
+     "n": "cotizacion",
+     "s": 0.5,
+     "e": 1.14
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 1.14,
+     "e": 1.34
+    },
+    {
+     "w": "fábrica",
+     "n": "fabrica",
+     "s": 1.34,
+     "e": 1.84
+    },
+    {
+     "w": "tiene",
+     "n": "tiene",
+     "s": 1.84,
+     "e": 2.14
+    },
+    {
+     "w": "tres",
+     "n": "tres",
+     "s": 2.14,
+     "e": 2.56
+    },
+    {
+     "w": "letras",
+     "n": "letras",
+     "s": 2.56,
+     "e": 3.06
+    },
+    {
+     "w": "que",
+     "n": "que",
+     "s": 3.06,
+     "e": 3.26
+    },
+    {
+     "w": "casi",
+     "n": "casi",
+     "s": 3.26,
+     "e": 3.56
+    },
+    {
+     "w": "nadie",
+     "n": "nadie",
+     "s": 3.56,
+     "e": 4.0
+    },
+    {
+     "w": "lee",
+     "n": "lee",
+     "s": 4.0,
+     "e": 4.24
+    },
+    {
+     "w": "F",
+     "n": "f",
+     "s": 4.24,
+     "e": 4.66
+    },
+    {
+     "w": "o",
+     "n": "o",
+     "s": 4.66,
+     "e": 5.16
+    },
+    {
+     "w": "B",
+     "n": "b",
+     "s": 5.16,
+     "e": 5.54
+    },
+    {
+     "w": "significan",
+     "n": "significan",
+     "s": 5.54,
+     "e": 6.36
+    },
+    {
+     "w": "que",
+     "n": "que",
+     "s": 6.36,
+     "e": 6.48
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 6.48,
+     "e": 6.6
+    },
+    {
+     "w": "fábrica",
+     "n": "fabrica",
+     "s": 6.6,
+     "e": 7.06
+    },
+    {
+     "w": "entrega",
+     "n": "entrega",
+     "s": 7.06,
+     "e": 7.46
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 7.46,
+     "e": 7.58
+    },
+    {
+     "w": "producto",
+     "n": "producto",
+     "s": 7.58,
+     "e": 8.0
+    },
+    {
+     "w": "en",
+     "n": "en",
+     "s": 8.0,
+     "e": 8.2
+    },
+    {
+     "w": "un",
+     "n": "un",
+     "s": 8.2,
+     "e": 8.28
+    },
+    {
+     "w": "puerto",
+     "n": "puerto",
+     "s": 8.28,
+     "e": 8.6
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 8.6,
+     "e": 8.74
+    },
+    {
+     "w": "China",
+     "n": "china",
+     "s": 8.74,
+     "e": 9.02
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 9.02,
+     "e": 9.34
+    },
+    {
+     "w": "ahí",
+     "n": "ahi",
+     "s": 9.34,
+     "e": 9.5
+    },
+    {
+     "w": "termina",
+     "n": "termina",
+     "s": 9.5,
+     "e": 9.98
+    },
+    {
+     "w": "su",
+     "n": "su",
+     "s": 9.98,
+     "e": 10.14
+    },
+    {
+     "w": "trabajo.",
+     "n": "trabajo",
+     "s": 10.14,
+     "e": 10.48
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "text": "El barco, el seguro, el arancel, la aduana y el camión hasta tu almacén: todo eso es tuyo.",
+   "start": 11.606,
+   "end": 19.065,
+   "dur": 7.459,
+   "heard": "el barco, el seguro, el arancel, la aduana y el camión hasta tu almacén. Todo eso es tuyo.",
+   "words": [
+    {
+     "w": "el",
+     "n": "el",
+     "s": 11.606,
+     "e": 11.786
+    },
+    {
+     "w": "barco,",
+     "n": "barco",
+     "s": 11.786,
+     "e": 12.286
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 12.526,
+     "e": 12.606
+    },
+    {
+     "w": "seguro,",
+     "n": "seguro",
+     "s": 12.606,
+     "e": 12.986
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 13.406,
+     "e": 13.446
+    },
+    {
+     "w": "arancel,",
+     "n": "arancel",
+     "s": 13.446,
+     "e": 14.066
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 14.266,
+     "e": 14.446
+    },
+    {
+     "w": "aduana",
+     "n": "aduana",
+     "s": 14.446,
+     "e": 14.846
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 14.846,
+     "e": 15.106
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 15.106,
+     "e": 15.226
+    },
+    {
+     "w": "camión",
+     "n": "camion",
+     "s": 15.226,
+     "e": 15.686
+    },
+    {
+     "w": "hasta",
+     "n": "hasta",
+     "s": 15.686,
+     "e": 16.046
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 16.046,
+     "e": 16.246
+    },
+    {
+     "w": "almacén.",
+     "n": "almacen",
+     "s": 16.246,
+     "e": 16.766
+    },
+    {
+     "w": "Todo",
+     "n": "todo",
+     "s": 17.026,
+     "e": 17.146
+    },
+    {
+     "w": "eso",
+     "n": "eso",
+     "s": 17.146,
+     "e": 17.486
+    },
+    {
+     "w": "es",
+     "n": "es",
+     "s": 17.486,
+     "e": 17.786
+    },
+    {
+     "w": "tuyo.",
+     "n": "tuyo",
+     "s": 17.786,
+     "e": 18.146
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "text": "Así que antes de pagar el anticipo, pregúntate: ¿cuánto cuesta lo que la cotización no dice?",
+   "start": 19.865,
+   "end": 25.286,
+   "dur": 5.421,
+   "heard": "Así que antes de pagar el anticipo pregúntate ¿Cuánto cuesta lo que la cotización no dice?",
+   "words": [
+    {
+     "w": "Así",
+     "n": "asi",
+     "s": 19.865,
+     "e": 20.125
+    },
+    {
+     "w": "que",
+     "n": "que",
+     "s": 20.125,
+     "e": 20.325
+    },
+    {
+     "w": "antes",
+     "n": "antes",
+     "s": 20.325,
+     "e": 20.625
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 20.625,
+     "e": 20.825
+    },
+    {
+     "w": "pagar",
+     "n": "pagar",
+     "s": 20.825,
+     "e": 21.105
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 21.105,
+     "e": 21.285
+    },
+    {
+     "w": "anticipo",
+     "n": "anticipo",
+     "s": 21.285,
+     "e": 21.925
+    },
+    {
+     "w": "pregúntate",
+     "n": "preguntate",
+     "s": 21.925,
+     "e": 22.605
+    },
+    {
+     "w": "¿Cuánto",
+     "n": "cuanto",
+     "s": 22.605,
+     "e": 23.205
+    },
+    {
+     "w": "cuesta",
+     "n": "cuesta",
+     "s": 23.205,
+     "e": 23.585
+    },
+    {
+     "w": "lo",
+     "n": "lo",
+     "s": 23.585,
+     "e": 23.705
+    },
+    {
+     "w": "que",
+     "n": "que",
+     "s": 23.705,
+     "e": 23.825
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 23.825,
+     "e": 23.965
+    },
+    {
+     "w": "cotización",
+     "n": "cotizacion",
+     "s": 23.965,
+     "e": 24.565
+    },
+    {
+     "w": "no",
+     "n": "no",
+     "s": 24.565,
+     "e": 24.805
+    },
+    {
+     "w": "dice?",
+     "n": "dice",
+     "s": 24.805,
+     "e": 25.065
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "text": "Antes de pagar, calcula tu costo real en vender en usa punto com.",
+   "start": 25.986,
+   "end": 30.809,
+   "dur": 4.823,
+   "heard": "Antes de pagar, calcula tu costo real en vender en usapunto .com.",
+   "words": [
+    {
+     "w": "Antes",
+     "n": "antes",
+     "s": 25.986,
+     "e": 26.246
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 26.246,
+     "e": 26.466
+    },
+    {
+     "w": "pagar,",
+     "n": "pagar",
+     "s": 26.466,
+     "e": 26.826
+    },
+    {
+     "w": "calcula",
+     "n": "calcula",
+     "s": 27.166,
+     "e": 27.626
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 27.626,
+     "e": 27.766
+    },
+    {
+     "w": "costo",
+     "n": "costo",
+     "s": 27.766,
+     "e": 28.186
+    },
+    {
+     "w": "real",
+     "n": "real",
+     "s": 28.186,
+     "e": 28.466
+    },
+    {
+     "w": "en",
+     "n": "en",
+     "s": 28.466,
+     "e": 28.826
+    },
+    {
+     "w": "vender",
+     "n": "vender",
+     "s": 28.826,
+     "e": 29.226
+    },
+    {
+     "w": "en",
+     "n": "en",
+     "s": 29.226,
+     "e": 29.666
+    },
+    {
+     "w": "usapunto",
+     "n": "usapunto",
+     "s": 29.666,
+     "e": 30.246
+    },
+    {
+     "w": ".com.",
+     "n": "com",
+     "s": 30.246,
+     "e": 30.666
+    }
+   ]
+  }
+ ]
+}

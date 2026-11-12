@@ -16,14 +16,18 @@ A pipeline that turns a short Spanish script into a finished vertical explainer 
 4. An HTML page animates a "notebook" drawing, with every stroke, stamp and caption timed to those words.
 5. The page is rendered to MP4, with synthesised sound effects mixed under the voice.
 
-Two videos were taken all the way through:
+Six videos were taken all the way through, in two visual styles:
 
-| Video | Folder | Length | Service it supports |
-|---|---|---|---|
-| "Llena el vaso" (Colombia → Miami cost example) | `llena-el-vaso/` | 60 s | Ruta 02, Tu Marca en EE. UU. |
-| "Llegó el barco. ¿Y mi caja?" | `llego-el-barco/` | 32 s | Ruta 03, Tu Primera Importación |
+| Video | Folder | Length | Style | Service it supports |
+|---|---|---|---|---|
+| "Llena el vaso" (Colombia → Miami cost example) | `llena-el-vaso/` | 60 s | Notebook | Ruta 02, Tu Marca en EE. UU. |
+| "Llegó el barco. ¿Y mi caja?" | `llego-el-barco/` | 32 s | Notebook | Ruta 03, Tu Primera Importación |
+| "El certificado que no existe" | `el-certificado-que-no-existe/` | 33 s | Notebook | Ruta 01, Tu Agente FDA |
+| "Tres letras" (FOB) | `tres-letras-fob/` | 32 s | Notebook | Ruta 02 |
+| "¿Quién es el importador?" (coffee from Honduras) | `quien-es-el-importador/` | 49 s | Notebook | Ruta 03 |
+| "¿Qué necesitas para importar tu producto?" | `que-necesitas-para-importar/` | 45 s | Motion graphics | All three |
 
-The second one is the more finished of the two: it has sound effects and a verified safe-zone layout.
+The first two were built before the shared code existed and carry their own copies of the scripts. The last four use `common/`, which is the version to copy for new work. The last video also uses the voice settings the owner approved (section 7).
 
 ---
 
@@ -126,7 +130,20 @@ Taken from the live site's stylesheet and applied to the videos.
 - `reference/llego-el-barco-zonas-seguras.jpg` shows five frames with those zones shaded.
 - The zone sizes come from third-party guides that disagree, so the most cautious figures were used. Check each platform's own preview before posting.
 
-Reference images: `reference/site-homepage.png` (the live site), `reference/llena-el-vaso-frames.jpg` (frames from the glass video).
+Reference images: `reference/site-homepage.png` (the live site), `reference/llena-el-vaso-frames.jpg` (frames from the glass video), `reference/motion-graphics-frames.jpg` (frames from the motion-graphics video).
+
+### Second style: motion graphics
+
+Built for more movement and attention (`common/mg.css`, used by `que-necesitas-para-importar/`). Same fonts and colours, no notebook.
+
+- Full-screen colour fields that alternate navy `#101c29`, orange `#ce4206` and paper `#f1f2ee`; a brighter orange `#ff6a2b` is the accent on navy.
+- Each scene arrives with a full-screen wipe (expanding circle or sliding edge).
+- Giant outlined numerals (330 px) that fill with colour when the number is spoken.
+- Titles rise out of a mask; key words pop in as chips on the word that names them.
+- Something always moves: a drifting background grid, a ghost word scrolling behind the scene, floating rings.
+- A five-part progress bar with a counter ("3/5") at the top of the safe zone.
+- Captions are white with a dark outline so they read on all three backgrounds; the spoken word turns bright orange.
+- Pass `notebook=False, base="mg.css"` to `Video.build()` to use it.
 
 ---
 
@@ -135,10 +152,19 @@ Reference images: `reference/site-homepage.png` (the live site), `reference/llen
 ```
 video-agent/
 ├── README.md                 this document
+├── common/                   shared code: use this for new videos
+│   ├── gen_voice.py          script.json → one WAV per segment (cloned voice)
+│   ├── align.py              evens the pace, polishes the voice, times every word
+│   ├── buildlib.py           timings → cues → captions → one HTML page
+│   ├── audio.py              sound effects + original music bed, lowered under the voice
+│   ├── base.css              notebook style
+│   └── mg.css                motion-graphics style
 ├── hf/trial/                 HyperFrames project stub copied into each build
 ├── site/assets/              the site's six sketch SVGs
 ├── reference/                target look: site screenshot, frames, safe-zone proof
-├── llena-el-vaso/            video 1 (60 s)
+├── el-certificado-que-no-existe/, tres-letras-fob/, quien-es-el-importador/, que-necesitas-para-importar/
+│   └── script.json, build.py (cues and sound events), body.html, anim.js, style.css, timing.json, events.json
+├── llena-el-vaso/            video 1 (60 s), older self-contained layout
 │   ├── script.json           narration segments and pauses
 │   ├── data.json             the example's numbers
 │   ├── gen_voice.py          script → one WAV per segment (cloned voice)
@@ -204,7 +230,47 @@ Chatterbox clones from a short clip. The clip used here was a 20-second preview 
 
 ## 7. How to build a video
 
-Run from inside a video folder, with the voice environment at `../cb/venv` (or adjust the path).
+These are the steps for a video that uses `common/` (the four newer ones). Run from inside the video folder, with the voice environment at `../cb/venv` (or adjust the path).
+
+```bash
+# 1. narrate every segment in script.json  → audio/<id>.wav   (add ids to redo only some)
+HF_HUB_DISABLE_XET=1 ../cb/venv/bin/python ../common/gen_voice.py /path/to/voice-reference.wav
+
+# 2. even the pace, polish, transcribe  → timing.json + narration.wav, then READ the transcript
+HF_HUB_DISABLE_XET=1 ../cb/venv/bin/python ../common/align.py
+
+# 3. build the page and the list of sound events  → project/index.html + events.json
+python3 build.py
+
+# 4. sound effects + music under the voice  → final_audio.wav, then rebuild to pick it up
+../cb/venv/bin/python ../common/audio.py 0.28      # the number is the music level
+python3 build.py
+
+# 5. look, then render
+cd project && npx hyperframes snapshot --at 0.4,5,12,20,30 && npx hyperframes render
+```
+
+### Voice settings the owner approved
+
+The first narrations sounded uneven. Measured, the lines ran anywhere from 12 to 18 characters per second, and the model's 24 kHz output was dull. `common/gen_voice.py` and `common/align.py` fix this:
+
+- **Energy:** `exaggeration=0.62`, `cfg_weight=0.5` (environment variables `EXAG`, `CFG`). Higher expressiveness also steadied the pace.
+- **Pace:** each line is measured and time-stretched toward 15.6 characters per second, limited to 0.94×–1.16× so it never sounds processed (`PACE`).
+- **Polish:** high-pass at 75 Hz, −2.5 dB at 260 Hz, +3 dB at 3.4 kHz, +3.5 dB shelf above 8.5 kHz, 3:1 compression, loudness to −16 LUFS.
+- **Retakes:** `SEED=23 gen_voice.py ref.wav s2` gives a different take of one line.
+
+### Sound and music
+
+`common/audio.py` reads `events.json` (written by `build.py`) and `narration.wav`.
+
+- **Effects** are synthesised: pen scratch, stamp thud, tick, pop, page-turn whoosh, bell, coin. Each event is `[kind, time, gain, extra]`, placed on the same word cues as the animation. They sit at about a fifth of the voice level.
+- **Music** is an original eight-bar loop written in code (A minor, 96 bpm: pad, bass, mallet arpeggio, soft kick, shaker, rim). No licensing is involved.
+- **Ducking:** the music follows the voice's loudness and drops about 8 dB while the narrator speaks.
+- The owner asked for music because the videos "lacked oomph"; no verdict on this bed has been given yet. A real licensed track can be mixed in the same way.
+
+### The two older videos
+
+`llena-el-vaso/` and `llego-el-barco/` predate `common/` and keep their own scripts:
 
 ```bash
 # 1. narrate every segment in script.json  → audio/<id>.wav
@@ -259,6 +325,8 @@ The voice model makes mistakes that only show up by transcribing its output and 
 - **Dropped words:** a leading "Tres:" vanished once. Rewording to "Y tres:" fixed it.
 - **Small rewordings:** "Te quedan poco más" became "Te queda un poco más". If the result is still correct Spanish, change the caption text to match and move on.
 - **The web address:** write "vender en usa punto com" for the voice; the builder merges it back into "venderenusa.com" for captions.
+- **A number word alone at the start of a line gets dropped.** "Tres:" vanished repeatedly; "Número tres:" and "Y cinco:" survive.
+- **Some word pairs garble.** "cuánto arancel pagas" came out wrong on two takes; "el arancel que pagas" was clean.
 - Changing the random seed in `gen_voice.py` gives a different take of the same line.
 
 ### Layout
@@ -287,7 +355,7 @@ The voice model makes mistakes that only show up by transcribing its output and 
 | XTTS-v2 | Non-commercial license. |
 | F5-TTS | Good quality; sources conflict on whether its model weights allow commercial use. |
 | Photographed-hand whiteboard reveal | Needs a hand photo set and one image per element; the self-drawing notebook is closer to the site and less work. |
-| Generated music bed | Likely to sound cheap. Add a licensed track in each app when posting. |
+| AI music models (MusicGen, Stable Audio) | Non-commercial or unclear licences, and heavy to run. A simple loop written in code is used instead (section 7). |
 
 ---
 
@@ -319,9 +387,29 @@ The voice model makes mistakes that only show up by transcribing its output and 
 | Returns | $0.75 |
 | **Total against a $25 sale price** | **$23.93, leaving $1.07** |
 
-### Hooks recorded but not built
+**"¿Quién es el importador?"** (`quien-es-el-importador/script.json`), framed on coffee from Honduras.
 
-**"El certificado que no existe"** (Ruta 01). The claim that the FDA does not issue certificates must be confirmed against an FDA source before publishing.
+> Tu café puede llegar a Miami y no entrar. No por el café: porque nadie figura como importador.
+>
+> En cada envío, alguien responde ante la aduana de Estados Unidos: declara la carga, paga los aranceles y responde si algo falla. Ese es el importador.
+>
+> Tu almacén no lo es. Tu agente aduanal tramita la entrada, pero normalmente tampoco.
+>
+> Entonces, ¿quién? Puede ser tu propia empresa en Estados Unidos, tu empresa extranjera registrada como importador no residente, o tu comprador allá.
+>
+> Decídelo antes de embarcar, no cuando el café ya está en el puerto.
+
+Checked against the rule that the importer of record is the owner, the purchaser, or a licensed broker they designate, and that a foreign company needs a bond and a resident agent. A November 2026 Federal Register notice proposes new requirements for foreign importers; confirm its status before reusing option B.
+
+**"¿Qué necesitas para importar tu producto a Estados Unidos?"** (`que-necesitas-para-importar/script.json`). Five items: clasificación, importador, documentos, requisitos del producto, destino. The list is a sensible general one, not an official one.
+
+### The niche this came from
+
+A real inquiry showed the persona clearly: an online retailer of packaged food from Central America (coffee, in that case) who wants US inventory so American orders ship domestically. Small, cautious, wants a pilot, has no US company, ships parcels of one to three units, and asks about importer-of-record, lot and expiry tracking, store integration, minimums and per-parcel rates. Each of those questions is a video. Naming the product and origin in the hook ("café de Honduras") is what makes that viewer stop. Never name a real lead in public content.
+
+### Hooks recorded and then built
+
+**"El certificado que no existe"** (Ruta 01). Confirmed: the FDA's Cosmetics Direct page states it does not issue certificates or other documents verifying cosmetic facility registration or product listing.
 
 > ¿Te ofrecieron un certificado de la FDA para tu cosmético? Guárdalo bien, porque la FDA no emite certificados. Lo que existe es otra cosa: el registro de la instalación donde se fabrica, un agente en Estados Unidos, y el listado de cada producto. Y nada de eso significa aprobado. Antes de pagar por un papel, averigua cuál de los tres te falta.
 
@@ -346,7 +434,7 @@ The voice model makes mistakes that only show up by transcribing its output and 
 ## 11. Open items
 
 1. **The owner has not approved the facts** in either script. Everything regulatory or numerical needs sign-off.
-2. **No music.** Sound effects are synthesised and simple.
+2. **Music and effects are synthesised.** The owner has approved the reworked voice but has not yet judged the music bed.
 3. **Only the 9:16 format exists.** A 16:9 layout for regular YouTube was planned (the site's desktop notebook spread) but not built.
 4. **Publishing is manual.** Upload in each app; add a tracked link per video to the calculator or consultation page.
 5. **The voice setup is not on the owner's Mac yet.** It ran in a temporary cloud session.
@@ -362,8 +450,8 @@ To reproduce the results from this folder:
 
 1. Follow section 6 to install the three tools, including the `setuptools<81` fix.
 2. Get a Spanish voice reference clip (20–60 seconds, mono WAV).
-3. In `llego-el-barco/`, run the steps in section 7. The output should match `reference/llego-el-barco-zonas-seguras.jpg` frame for frame, apart from the voice.
-4. To make a new video, copy a folder, rewrite `script.json`, then edit `body.html` (what is on the page) and `anim.js` (when each thing happens, using `{{cue}}` names defined in `build.py`).
+3. In `que-necesitas-para-importar/`, run the steps in section 7. The frames should match `reference/motion-graphics-frames.jpg`, apart from the voice.
+4. To make a new video, copy one of the four newer folders, rewrite `script.json`, then edit `build.py` (cue names and sound events), `body.html` (what is on screen) and `anim.js` (when each thing happens, using the `{{cue}}` names from `build.py`).
 
 The rules a new agent should hold to:
 

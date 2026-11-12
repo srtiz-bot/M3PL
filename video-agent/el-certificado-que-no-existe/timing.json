@@ -1,0 +1,477 @@
+{
+ "total": 33.26,
+ "segs": [
+  {
+   "id": "a1",
+   "text": "¿Te ofrecieron un certificado de la FDA para tu cosmético? Guárdalo bien, porque la FDA no emite certificados.",
+   "start": 0.4,
+   "end": 7.925,
+   "dur": 7.525,
+   "heard": "te ofrecieron un certificado de la FDA para tu cosmético, guárdalo bien porque la FDA no emite certificados.",
+   "words": [
+    {
+     "w": "te",
+     "n": "te",
+     "s": 0.4,
+     "e": 0.48
+    },
+    {
+     "w": "ofrecieron",
+     "n": "ofrecieron",
+     "s": 0.48,
+     "e": 1.04
+    },
+    {
+     "w": "un",
+     "n": "un",
+     "s": 1.04,
+     "e": 1.18
+    },
+    {
+     "w": "certificado",
+     "n": "certificado",
+     "s": 1.18,
+     "e": 1.98
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 1.98,
+     "e": 2.12
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 2.12,
+     "e": 2.26
+    },
+    {
+     "w": "FDA",
+     "n": "fda",
+     "s": 2.26,
+     "e": 2.7
+    },
+    {
+     "w": "para",
+     "n": "para",
+     "s": 2.7,
+     "e": 3.24
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 3.24,
+     "e": 3.44
+    },
+    {
+     "w": "cosmético,",
+     "n": "cosmetico",
+     "s": 3.44,
+     "e": 4.12
+    },
+    {
+     "w": "guárdalo",
+     "n": "guardalo",
+     "s": 4.66,
+     "e": 5.06
+    },
+    {
+     "w": "bien",
+     "n": "bien",
+     "s": 5.06,
+     "e": 5.34
+    },
+    {
+     "w": "porque",
+     "n": "porque",
+     "s": 5.34,
+     "e": 5.7
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 5.7,
+     "e": 5.92
+    },
+    {
+     "w": "FDA",
+     "n": "fda",
+     "s": 5.92,
+     "e": 6.3
+    },
+    {
+     "w": "no",
+     "n": "no",
+     "s": 6.3,
+     "e": 6.56
+    },
+    {
+     "w": "emite",
+     "n": "emite",
+     "s": 6.56,
+     "e": 6.94
+    },
+    {
+     "w": "certificados.",
+     "n": "certificados",
+     "s": 6.94,
+     "e": 7.7
+    }
+   ]
+  },
+  {
+   "id": "a2",
+   "text": "Lo que existe es otra cosa: el registro de la instalación donde se fabrica, un agente en Estados Unidos, y el listado de cada producto.",
+   "start": 8.825,
+   "end": 19.098,
+   "dur": 10.273,
+   "heard": "Lo que existe es otra cosa, el registro de la instalación donde se fabrica un agente en Estados Unidos y el listado de cada producto.",
+   "words": [
+    {
+     "w": "Lo",
+     "n": "lo",
+     "s": 8.825,
+     "e": 9.045
+    },
+    {
+     "w": "que",
+     "n": "que",
+     "s": 9.045,
+     "e": 9.225
+    },
+    {
+     "w": "existe",
+     "n": "existe",
+     "s": 9.225,
+     "e": 9.645
+    },
+    {
+     "w": "es",
+     "n": "es",
+     "s": 9.645,
+     "e": 10.105
+    },
+    {
+     "w": "otra",
+     "n": "otra",
+     "s": 10.105,
+     "e": 10.305
+    },
+    {
+     "w": "cosa,",
+     "n": "cosa",
+     "s": 10.305,
+     "e": 10.685
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 11.285,
+     "e": 11.385
+    },
+    {
+     "w": "registro",
+     "n": "registro",
+     "s": 11.385,
+     "e": 11.965
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 11.965,
+     "e": 12.065
+    },
+    {
+     "w": "la",
+     "n": "la",
+     "s": 12.065,
+     "e": 12.165
+    },
+    {
+     "w": "instalación",
+     "n": "instalacion",
+     "s": 12.165,
+     "e": 12.765
+    },
+    {
+     "w": "donde",
+     "n": "donde",
+     "s": 12.765,
+     "e": 12.945
+    },
+    {
+     "w": "se",
+     "n": "se",
+     "s": 12.945,
+     "e": 13.165
+    },
+    {
+     "w": "fabrica",
+     "n": "fabrica",
+     "s": 13.165,
+     "e": 13.805
+    },
+    {
+     "w": "un",
+     "n": "un",
+     "s": 13.805,
+     "e": 14.305
+    },
+    {
+     "w": "agente",
+     "n": "agente",
+     "s": 14.305,
+     "e": 14.785
+    },
+    {
+     "w": "en",
+     "n": "en",
+     "s": 14.785,
+     "e": 15.005
+    },
+    {
+     "w": "Estados",
+     "n": "estados",
+     "s": 15.005,
+     "e": 15.265
+    },
+    {
+     "w": "Unidos",
+     "n": "unidos",
+     "s": 15.265,
+     "e": 15.785
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 15.785,
+     "e": 16.425
+    },
+    {
+     "w": "el",
+     "n": "el",
+     "s": 16.425,
+     "e": 16.545
+    },
+    {
+     "w": "listado",
+     "n": "listado",
+     "s": 16.545,
+     "e": 16.985
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 16.985,
+     "e": 17.145
+    },
+    {
+     "w": "cada",
+     "n": "cada",
+     "s": 17.145,
+     "e": 17.345
+    },
+    {
+     "w": "producto.",
+     "n": "producto",
+     "s": 17.345,
+     "e": 17.845
+    }
+   ]
+  },
+  {
+   "id": "a3",
+   "text": "Y nada de eso significa aprobado. Antes de pagar por un papel, averigua cuál de los tres te falta.",
+   "start": 19.698,
+   "end": 26.5,
+   "dur": 6.802,
+   "heard": "y nada de eso significa aprobado. Antes de pagar por un papel, averigua cuál de los tres te falta.",
+   "words": [
+    {
+     "w": "y",
+     "n": "y",
+     "s": 19.698,
+     "e": 19.838
+    },
+    {
+     "w": "nada",
+     "n": "nada",
+     "s": 19.838,
+     "e": 20.058
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 20.058,
+     "e": 20.298
+    },
+    {
+     "w": "eso",
+     "n": "eso",
+     "s": 20.298,
+     "e": 20.578
+    },
+    {
+     "w": "significa",
+     "n": "significa",
+     "s": 20.578,
+     "e": 21.118
+    },
+    {
+     "w": "aprobado.",
+     "n": "aprobado",
+     "s": 21.118,
+     "e": 21.998
+    },
+    {
+     "w": "Antes",
+     "n": "antes",
+     "s": 22.218,
+     "e": 22.598
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 22.598,
+     "e": 22.798
+    },
+    {
+     "w": "pagar",
+     "n": "pagar",
+     "s": 22.798,
+     "e": 23.078
+    },
+    {
+     "w": "por",
+     "n": "por",
+     "s": 23.078,
+     "e": 23.378
+    },
+    {
+     "w": "un",
+     "n": "un",
+     "s": 23.378,
+     "e": 23.498
+    },
+    {
+     "w": "papel,",
+     "n": "papel",
+     "s": 23.498,
+     "e": 23.878
+    },
+    {
+     "w": "averigua",
+     "n": "averigua",
+     "s": 24.338,
+     "e": 24.918
+    },
+    {
+     "w": "cuál",
+     "n": "cual",
+     "s": 24.918,
+     "e": 25.158
+    },
+    {
+     "w": "de",
+     "n": "de",
+     "s": 25.158,
+     "e": 25.398
+    },
+    {
+     "w": "los",
+     "n": "los",
+     "s": 25.398,
+     "e": 25.558
+    },
+    {
+     "w": "tres",
+     "n": "tres",
+     "s": 25.558,
+     "e": 25.818
+    },
+    {
+     "w": "te",
+     "n": "te",
+     "s": 25.818,
+     "e": 25.978
+    },
+    {
+     "w": "falta.",
+     "n": "falta",
+     "s": 25.978,
+     "e": 26.238
+    }
+   ]
+  },
+  {
+   "id": "a4",
+   "text": "Cuéntanos tu caso y lo revisamos contigo en vender en usa punto com.",
+   "start": 27.2,
+   "end": 31.756,
+   "dur": 4.556,
+   "heard": "Cuéntanos tu caso y lo revisamos contigo en venderenusa .com.",
+   "words": [
+    {
+     "w": "Cuéntanos",
+     "n": "cuentanos",
+     "s": 27.2,
+     "e": 27.58
+    },
+    {
+     "w": "tu",
+     "n": "tu",
+     "s": 27.58,
+     "e": 27.8
+    },
+    {
+     "w": "caso",
+     "n": "caso",
+     "s": 27.8,
+     "e": 28.16
+    },
+    {
+     "w": "y",
+     "n": "y",
+     "s": 28.16,
+     "e": 28.46
+    },
+    {
+     "w": "lo",
+     "n": "lo",
+     "s": 28.46,
+     "e": 28.58
+    },
+    {
+     "w": "revisamos",
+     "n": "revisamos",
+     "s": 28.58,
+     "e": 29.16
+    },
+    {
+     "w": "contigo",
+     "n": "contigo",
+     "s": 29.16,
+     "e": 29.74
+    },
+    {
+     "w": "en",
+     "n": "en",
+     "s": 29.74,
+     "e": 29.88
+    },
+    {
+     "w": "venderenusa",
+     "n": "venderenusa",
+     "s": 29.88,
+     "e": 30.88
+    },
+    {
+     "w": ".com.",
+     "n": "com",
+     "s": 30.88,
+     "e": 31.58
+    }
+   ]
+  }
+ ]
+}
