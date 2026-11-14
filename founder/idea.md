@@ -1,0 +1,7 @@
+# Marcana 3PL
+
+- What it is: a founder-led third-party logistics (3PL) and e-commerce fulfillment company in Miami, Florida that stores sellers' inventory, picks and packs their orders, and ships them same-day.
+- Who it is for: small and growing e-commerce brands (startup through scaling stage) selling on Shopify, Amazon (FBA prep and FBM), TikTok Shop, WooCommerce and Etsy; mainly apparel, vitamins and supplements, cosmetics and consumable goods; English- and Spanish-speaking founders.
+- What it sells, at what price: one flat-rate "Growth Plan" at $149/month + $1.95 per order shipped (up to 2 lbs and 2 items per order; extra picks estimated at $0.35 each). Carrier shipping is billed separately at cost. 14-day free trial with fulfillment fees waived. Custom quotes for higher volume.
+- Where and how: one warehouse at 19599 NE 10th Ave, Miami, FL 33179; ships across the US and internationally; FedEx One Rate for 2-3 day nationwide delivery. Customers find it through its bilingual website (marcana-3pl.com, English + Spanish, SEO pages per service), Instagram, WhatsApp/phone, and a quote form or booked call. Operations run on the ShipHero warehouse system, with a client portal.
+- Budget and constraints: not provided. This is an existing, operating business, not a pre-launch idea. Current client count, order volume, revenue, costs, warehouse size and team size are not known.
