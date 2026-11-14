@@ -1,0 +1,25 @@
+{
+  "name": "vende-en-usa-explainers",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render:test": "remotion render src/index.ts MotionTest01 out/motion-test-01.mp4",
+    "still": "remotion still src/index.ts MotionTest01"
+  },
+  "dependencies": {
+    "@fontsource/fredoka": "5.1.0",
+    "@fontsource/nunito": "5.1.0",
+    "@remotion/cli": "4.0.543",
+    "@remotion/layout-utils": "4.0.543",
+    "@remotion/media-utils": "4.0.543",
+    "@remotion/paths": "4.0.543",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.543"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}

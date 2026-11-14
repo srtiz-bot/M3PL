@@ -1,0 +1,69 @@
+{
+  "episode": "motion-test-01",
+  "fps": 30,
+  "durationFrames": 300,
+  "width": 1080,
+  "height": 1920,
+  "narration": null,
+  "plannedCuts": [
+    [
+      6,
+      12
+    ],
+    [
+      112,
+      124
+    ],
+    [
+      154,
+      170
+    ],
+    [
+      266,
+      280
+    ]
+  ],
+  "textItems": [
+    [
+      "Te llega este mensaje:",
+      14,
+      154
+    ],
+    [
+      "Te compro… si me entregas en EE. UU.",
+      81,
+      154
+    ],
+    [
+      "¡Yo me encargo!",
+      122,
+      154
+    ],
+    [
+      "Tu producto viaja. Tú, no.",
+      186,
+      300
+    ],
+    [
+      "Bodega Miami",
+      206,
+      300
+    ],
+    [
+      "Tú sigues aquí",
+      248,
+      300
+    ],
+    [
+      "Aduana LISTO",
+      238,
+      262
+    ],
+    [
+      "Vende en USA",
+      276,
+      300
+    ]
+  ],
+  "plannedCutsNote": "Scene wipe plus intentional large pop-ins (chat card, speech bubble, brand stamp). Character pose changes must never appear here."
+}
