@@ -4,6 +4,7 @@ Written only by the Chief of Staff. Newest first. One line per decision or appro
 
 | Date | Brand | Decision or approved action | Approved by |
 |---|---|---|---|
+| 2026-11-15 | Wax Supply | Executed: added Ultra Black 1 lb, 2.2 lb, 10 lb, 11 lb, 22 lb, 44 lb to discount WST15 (15% off first order). Ultra Black ad keeps $10.10/lb headline price; WST15 shown as extra first-order offer | Owner |
 | 2026-11-15 | Wax Supply | Executed: created "Ultra Black Bulk | Sales" (campaign 120250275875100241, ad set 120250275877340241, ad 120250275882300241), $40/day, PAUSED. Awaiting owner review before activation | Owner |
 | 2026-11-15 | Wax Supply | Approved: build Ultra Black Meta ads, created paused, $40/day, for review before going live | Owner |
 | 2026-11-15 | Wax Supply | Keep Euro Clear 10 lb Meta campaign at $80/day and keep growing it; warehouse holds 4-5x more bags than Shopify shows | Owner |
