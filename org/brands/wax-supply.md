@@ -23,7 +23,9 @@ Check live stock in Shopify before promoting any formula. Never advertise a size
 - Coco Creamy and Pink Shimmer: arriving end of November 2026.
 - Euro Clear and Pink Cream: in production, arrival date to confirm.
 - Ultra Black: in stock across bulk sizes (2 lb to 99 lb); 10 lb bag and 1 lb sample running low.
-- Euro Clear: only 1 lb and 10 lb in stock; 10 lb has about two weeks of stock at the current pace.
+- Euro Clear 10 lb: Shopify shows low stock, but the warehouse holds 4 to 5 times more bags that can be
+  prepared and added. Keep advertising and growing this SKU; Shopify inventory understates real supply.
+- Euro Clear other sizes: only 1 lb and 10 lb listed in stock.
 - Euro Blue and Purple Creamy: mostly sold out; no restock date given.
 - Euro Pearl: listed as pre-order.
 
