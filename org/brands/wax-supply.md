@@ -16,6 +16,17 @@ No.06 Euro Blue (hyper-elastic, speed), No.07 Ultra Black (quick-set, speed).
 From $11.93/lb at volume; singles about $16-19. Free 1lb pro samples (customer pays shipping).
 The homepage compares prices with Italwax, Bushbalm, Waxness and Cirepil.
 
+## Supply status (owner, 2026-11-15)
+
+Check live stock in Shopify before promoting any formula. Never advertise a size that is sold out.
+
+- Coco Creamy and Pink Shimmer: arriving end of November 2026.
+- Euro Clear and Pink Cream: in production, arrival date to confirm.
+- Ultra Black: in stock across bulk sizes (2 lb to 99 lb); 10 lb bag and 1 lb sample running low.
+- Euro Clear: only 1 lb and 10 lb in stock; 10 lb has about two weeks of stock at the current pace.
+- Euro Blue and Purple Creamy: mostly sold out; no restock date given.
+- Euro Pearl: listed as pre-order.
+
 ## Customers
 Licensed estheticians and studios buying in bulk.
 
