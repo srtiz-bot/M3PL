@@ -32,11 +32,19 @@ any account. Discovered from the connectors on 2026-11-15; maintained by the Chi
 | Quo (phone) | Starpil lines: Starpil Main +13059070756, Starpil Toll-Free +18669722999, plus office/legacy lines | Starpil Wax | |
 | Quo (phone) | Nova lines: Nova Main Toll-Free +18883917173, Nova Local +14245432681, plus legacy lines | Nova Wax | |
 | Quo (phone) | Primary +13056767591, Danica +17866484542 | To confirm | |
+| Meta (Facebook connector) | Ad account 265275287213788 "Starpil Wax" | Starpil Wax | Active. ~$4,665 spent last 30 days. Accounts "Starpil Wax 2" (281998808874769) also active; 3 and 4 disabled by Meta; 5, 6, 7 closed. |
+| Meta | Ad account 2357520691242430 "Nova Wax" | Nova Wax | Active. ~$2,749 last 30 days. "Nova Wax Pro" (1149740466395781) unsettled balance. |
+| Meta | Ad account 1582710910201479 "Wax Supply Back Up" | Wax Supply | Active. ~$2,603 last 30 days. Main "WAXSUPPLY ADS" (359087615546469) disabled by Meta. |
+| Meta | Ad account 1236252074188883 "Marcana 3PL" | Marcana 3PL | Active, no spend last 30 days. |
+| Meta | Ad account 865022230974455 "Vender En USA" | Vende en USA | Active, $0 last 30 days. |
+| Facebook Pages | Starpil Wax 654541734398589 (also "Try Starpil" 586224137914658), Nova Wax 2688712994536405, Wax Supply 257979154675463, Marcana 3PL 104446319301766, Vende en USA 1224796980709581 | One per brand | |
+| Instagram | @starpilwaxusa, @nova_wax, @wax.supply, @marcana3pl, @comovenderenusa | One per brand | Linked to the Pages above; usable for ads and boosting through the Meta connector. Organic posting needs another connector. |
+| Meta, not ours to manage unless told | Starsoft Wax Center, Medix, Eva Pro Hair, Esthie Shield, Good Productivity | Outside the five brands | Visible in the same login. Do not touch; ask the owner whether these are his. |
 | Canva, Adobe, HeyGen, Drive, Gmail, Calendar, Slack, Airtable | Shared | Cross-brand | Check the brand before using any asset. |
 
 ## Not connected yet
 
-Meta / Facebook ads (needs reconnect), TikTok ads, Instagram, GA4, Search Console, Klaviyo,
+TikTok ads, organic Instagram/Facebook posting, GA4, Search Console, Klaviyo,
 Notion (needs reconnect), Adspirer (setup incomplete), ShipStation (setup incomplete).
 
 ## People seen in connectors

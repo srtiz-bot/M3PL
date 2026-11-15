@@ -23,7 +23,9 @@ selling into the US.
 
 ## Channels and accounts
 - Analytics: Clarity store "vendeenusa"
-- Social, ads, CRM, payments: to confirm
+- Social: Instagram @comovenderenusa, Facebook Page "Vende en USA"
+- Meta ad account: "Vender En USA" (no spend last 30 days)
+- CRM, payments: to confirm
 
 ## Voice
 Spanish-first. Calm, clear, step-by-step ("Un producto. Un paso claro."). To confirm with the owner.

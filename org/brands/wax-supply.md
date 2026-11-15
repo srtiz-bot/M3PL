@@ -23,7 +23,7 @@ Licensed estheticians and studios buying in bulk.
 - Shopify: the main "Shopify" connector
 - Google Ads: customer 4640153286 "Wax Supply"
 - Analytics: Clarity store "waxsupply"
-- Social: none linked on the site
+- Social: Instagram @wax.supply, Facebook Page "Wax Supply"
 - Email platform: to confirm
 - Site languages: EN / ES
 
