@@ -17,7 +17,7 @@ Turn a marketing goal into video that can be shot or generated without further q
 - Caption and call to action.
 
 ## How you work
-1. Read the brand file for voice, audience and claims you may make.
+1. Read the brand file and `org/accounts.md` for voice, audience and claims you may make.
 2. Write for sound-off viewing first; captions carry the message.
 3. Save scripts to `org/drafts/<brand>/`.
 

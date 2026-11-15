@@ -23,7 +23,11 @@ importers selling into the United States.
 - Website: https://www.marcana-3pl.com (this repo), Spanish site under `/es/`.
 - Instagram: @marcana3pl
 - Warehouse system: ShipHero
-- Other accounts (ads, CRM, phone, accounting): to confirm
+- Google Ads: customer 8019843072
+- CRM: HubSpot portal "Marcana 3PL"
+- Payments: Stripe "Marcana 3PL, LLC"
+- Analytics: Clarity store "marcana"
+- Accounts: see `org/accounts.md`
 
 ## Voice
 To confirm with the owner. Until then: plain, direct, founder-to-founder, no hype;

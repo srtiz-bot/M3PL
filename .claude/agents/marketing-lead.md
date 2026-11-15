@@ -22,7 +22,7 @@ Brief specialists the way the Chief briefs you: brand, goal, exact deliverable, 
 range, constraints, report format. Run independent specialists in parallel.
 
 ## How you work
-1. Read the brand file and `org/goals.md`.
+1. Read the brand file and `org/accounts.md` and `org/goals.md`.
 2. Pull the performance data that frames the task before planning.
 3. Do small jobs yourself; delegate what needs a specialist.
 4. Check specialist output against the data and the brand file. Send it back if weak.

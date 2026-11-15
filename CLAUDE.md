@@ -20,7 +20,10 @@ Chief of Staff described in `.claude/agents/chief-of-staff.md`.
 
 ## Brands
 
-One organization serves several brands. Each brand has a file in `org/brands/`.
+One organization serves five brands, each with a file in `org/brands/`:
+Starpil Wax, Nova Wax and Wax Supply (wax group); Marcana 3PL and Vende en USA (services group).
+`org/accounts.md` maps each connected account to its brand. Check it before using any connector:
+for example, the plain "Shopify" connector is the Wax Supply store, not Starpil or Nova.
 - Every task belongs to exactly one brand, or is explicitly marked "cross-brand".
 - Never mix one brand's customers, data, voice or accounts into another brand's work.
 - Read the brand file before doing any work for that brand. If a fact you need is
@@ -45,6 +48,7 @@ Agents read data and prepare work. They do not act on the outside world on their
 | File | Purpose | Who writes |
 |---|---|---|
 | `org/brands/*.md` | Facts, voice, accounts and limits per brand | Chief of Staff, on the owner's word |
+| `org/accounts.md` | Which connected account belongs to which brand | Chief of Staff |
 | `org/goals.md` | Current priorities and targets | Chief of Staff, on the owner's word |
 | `org/decisions-log.md` | Dated decisions and approvals | Chief of Staff only |
 | `org/drafts/<brand>/` | Work awaiting approval | The agent that produced it |
