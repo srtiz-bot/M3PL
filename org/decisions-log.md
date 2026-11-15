@@ -4,6 +4,7 @@ Written only by the Chief of Staff. Newest first. One line per decision or appro
 
 | Date | Brand | Decision or approved action | Approved by |
 |---|---|---|---|
+| 2026-11-15 | Wax Supply | Executed: created "Ultra Black Bulk | Sales" (campaign 120250275875100241, ad set 120250275877340241, ad 120250275882300241), $40/day, PAUSED. Awaiting owner review before activation | Owner |
 | 2026-11-15 | Wax Supply | Approved: build Ultra Black Meta ads, created paused, $40/day, for review before going live | Owner |
 | 2026-11-15 | Wax Supply | Keep Euro Clear 10 lb Meta campaign at $80/day and keep growing it; warehouse holds 4-5x more bags than Shopify shows | Owner |
 | 2026-11-15 | Wax Supply | Coco Creamy and Pink Shimmer launch ("back in stock") to be prepared closer to end-of-month arrival | Owner |
