@@ -28,7 +28,7 @@ any account. Discovered from the connectors on 2026-11-15; maintained by the Chi
 | HubSpot | Portal "Marcana 3PL" | Marcana 3PL | No brands add-on; treat all records as Marcana unless shown otherwise. |
 | ShipHero | To confirm | Marcana 3PL warehouse | Likely holds client inventory, including the wax brands. |
 | Gorgias | To confirm | To confirm | Check which store(s) it is connected to before using. |
-| Clarity | Stores: waxsupply, starpil, nova, marcana, vendeenusa | One per brand | Compare within a group only: "wax" or "services". |
+| Clarity | Stores: waxsupply, starpil, nova, marcana, vendeenusa | One per brand | Verified working 2026-11-15. Compare within a group only: "wax" or "services". Export is capped at 10 calls per store per day; prefer clarity_query. |
 | Quo (phone) | Starpil lines: Starpil Main +13059070756, Starpil Toll-Free +18669722999, plus office/legacy lines | Starpil Wax | |
 | Quo (phone) | Nova lines: Nova Main Toll-Free +18883917173, Nova Local +14245432681, plus legacy lines | Nova Wax | |
 | Quo (phone) | Primary +13056767591, Danica +17866484542 | To confirm | |

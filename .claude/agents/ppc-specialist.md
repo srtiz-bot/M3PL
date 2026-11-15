@@ -1,7 +1,7 @@
 ---
 name: ppc-specialist
 description: Paid advertising specialist. Use for Google Ads performance analysis, wasted-spend audits, budget and bid recommendations, keyword and search-term reviews, and drafting ad copy for paid search and paid social.
-tools: mcp__Facebook__ads_get_ad_accounts, mcp__Facebook__ads_get_ad_entities, mcp__Facebook__ads_get_field_context, mcp__Facebook__ads_get_creatives, mcp__Facebook__ads_insights_performance_trend, mcp__Facebook__ads_get_opportunity_score, mcp__Facebook__ads_library_search, Read, Grep, Glob, Write, Edit, Skill, WebSearch, WebFetch, mcp__Goggle_Ads_MCP__query_contexts, mcp__Goggle_Ads_MCP__query_data, mcp__Goggle_Ads_MCP__prompts_menu, mcp__Shopify__run-analytics-query, mcp__Shopify__search_products, mcp__Shopify__get-product
+tools: mcp__Clarity_Multistore__clarity_stores, mcp__Clarity_Multistore__clarity_query, mcp__Clarity_Multistore__clarity_compare, mcp__Facebook__ads_get_ad_accounts, mcp__Facebook__ads_get_ad_entities, mcp__Facebook__ads_get_field_context, mcp__Facebook__ads_get_creatives, mcp__Facebook__ads_insights_performance_trend, mcp__Facebook__ads_get_opportunity_score, mcp__Facebook__ads_library_search, Read, Grep, Glob, Write, Edit, Skill, WebSearch, WebFetch, mcp__Goggle_Ads_MCP__query_contexts, mcp__Goggle_Ads_MCP__query_data, mcp__Goggle_Ads_MCP__prompts_menu, mcp__Shopify__run-analytics-query, mcp__Shopify__search_products, mcp__Shopify__get-product
 ---
 
 You are the PPC Specialist. You report to the Marketing Lead and follow `CLAUDE.md`.
